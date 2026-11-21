@@ -1,0 +1,4259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseInstrument doc_version="31">
+  <SelectedPresetName>Synth - Synth Glassy Pad</SelectedPresetName>
+  <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+  <SelectedPresetIsModified>true</SelectedPresetIsModified>
+  <Name>Synth Glassy Pad</Name>
+  <CopyIntoNewSampleNameCounter>0</CopyIntoNewSampleNameCounter>
+  <CopyIntoNewInstrumentNameCounter>0</CopyIntoNewInstrumentNameCounter>
+  <GlobalProperties>
+    <Macro0>
+      <Value>32.8000832</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Attack</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.400000095</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.430000544</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>47.9998741</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Release</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.720000267</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>11</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.650000334</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>8</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.900000095</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>14.7999554</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Decay</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.750000238</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.749975324</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>8</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>28</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Sustain</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Log Slow</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>57.2000198</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Cutoff</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.109999985</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>8</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.810000181</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>29.1999855</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Rotor</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>7</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>7</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>9</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>7</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.770000219</Max>
+          <Scaling>Log Slow</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>7</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.770000219</Max>
+          <Scaling>Log Slow</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.0400006697</Max>
+          <Scaling>Exp Slow</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>9</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.0500006676</Max>
+          <Scaling>Exp Slow</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>63.2000198</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Hit</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.130000651</Max>
+          <Scaling>Log Slow</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>12</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.119999982</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>14</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.160000667</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>14</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.450000048</Max>
+          <Scaling>Log Slow</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.139999971</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.690000296</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro6>
+    <Macro7>
+      <Value>28.3999977</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Distance</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>SampleDSP</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>SampleDSP</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>8</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.7900002</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>SampleDSP</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>9</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro7>
+    <PitchbendMacro>
+      <Value>50</Value>
+      <Visualization>Device only</Visualization>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </PitchbendMacro>
+    <ModulationWheelMacro>
+      <Value>0.0</Value>
+      <Visualization>Device only</Visualization>
+    </ModulationWheelMacro>
+    <ChannelPressureMacro>
+      <Value>0.0</Value>
+      <Visualization>Device only</Visualization>
+    </ChannelPressureMacro>
+    <MacrosVisible>true</MacrosVisible>
+    <Volume>1.0</Volume>
+    <Transpose>-12</Transpose>
+    <Scale>None</Scale>
+    <ScaleKey>C</ScaleKey>
+    <Quantize>None</Quantize>
+    <Monophonic>false</Monophonic>
+    <MonophonicGlide>0</MonophonicGlide>
+    <Comments>
+      <Comment>Velocity-sensitive lead/pad with a glassy timbre. Lower registers can produce some nice bass sounds too...</Comment>
+      <Comment/>
+      <Comment>@ Attack  - attack stage </Comment>
+      <Comment>@ Release - release stage</Comment>
+      <Comment>@ Drive   - drive (attack)</Comment>
+      <Comment>@ Modwheel - cutoff amount</Comment>
+      <Comment>@ Pressure - drive (total)</Comment>
+      <Comment/>
+    </Comments>
+    <ShowCommentsAfterLoading>false</ShowCommentsAfterLoading>
+    <BeatsPerMin>110</BeatsPerMin>
+  </GlobalProperties>
+  <MidiInputProperties>
+    <Channel>-1</Channel>
+    <NoteRangeStart>0</NoteRangeStart>
+    <NoteRangeEnd>119</NoteRangeEnd>
+    <AssignedTrack>-1</AssignedTrack>
+  </MidiInputProperties>
+  <PhraseGenerator>
+    <PlaybackSync>false</PlaybackSync>
+    <PlaybackMode>Selective</PlaybackMode>
+    <SelectedPhraseIndex>3</SelectedPhraseIndex>
+    <Phrases>
+      <Phrase>
+        <SelectedPresetName>Arp - Raising2</SelectedPresetName>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-4</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="1">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-4</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="2">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>G-4</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="3">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-5</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="4">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D#5</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="5">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>G#5</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="6">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A#5</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="7">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D#6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="8">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="9">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A#6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="10">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-7</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="11">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-7</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+        </Lines>
+        <Name>Raising2</Name>
+        <LinesPerBeat>1</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>12</NumberOfLines>
+        <VisibleNoteColumns>1</VisibleNoteColumns>
+        <VisibleEffectColumns>1</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>false</PanningColumnIsVisible>
+        <DelayColumnIsVisible>false</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>true</Loop>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>12</LoopEnd>
+        </TriggerOptions>
+      </Phrase>
+      <Phrase>
+        <SelectedPresetName>Generic - Octaver</SelectedPresetName>
+        <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-4</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>50</Volume>
+                <Panning>20</Panning>
+                <Delay>06</Delay>
+                <EffectNumber>0U</EffectNumber>
+                <EffectValue>01</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>50</Volume>
+                <Panning>60</Panning>
+                <Delay>0A</Delay>
+                <EffectNumber>0D</EffectNumber>
+                <EffectValue>01</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+              <EffectColumn/>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+        </Lines>
+        <Name>Generic - Octaver</Name>
+        <LinesPerBeat>8</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>18</NumberOfLines>
+        <VisibleNoteColumns>3</VisibleNoteColumns>
+        <VisibleEffectColumns>1</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>true</PanningColumnIsVisible>
+        <DelayColumnIsVisible>true</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>false</Loop>
+          <LoopStart>2</LoopStart>
+          <LoopEnd>18</LoopEnd>
+        </TriggerOptions>
+      </Phrase>
+      <Phrase>
+        <SelectedPresetName>Arp - Wurliverse rETRIG</SelectedPresetName>
+        <SelectedPresetIsModified>false</SelectedPresetIsModified>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>YF</Volume>
+                <Panning>30</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>Y2</Volume>
+                <Panning>50</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O4</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O4</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O4</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O4</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="1">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>O4</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O4</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-5</Note>
+                <Volume>Y8</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-4</Note>
+                <Volume>Y8</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="2">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-4</Note>
+                <Volume>00</Volume>
+                <Panning>Y8</Panning>
+                <EffectNumber>0R</EffectNumber>
+                <EffectValue>C3</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-3</Note>
+                <Volume>00</Volume>
+                <Panning>Y8</Panning>
+                <EffectNumber>0R</EffectNumber>
+                <EffectValue>C3</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="3">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>I0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>I0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>Y8</Volume>
+                <Panning>50</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>Y8</Volume>
+                <Panning>30</Panning>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="4">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D#5</Note>
+                <Volume>YD</Volume>
+                <Panning>30</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>D#4</Note>
+                <Volume>Y2</Volume>
+                <Panning>50</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="5">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G#4</Note>
+                <Panning>Y8</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G#5</Note>
+                <Volume>Y8</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="6">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G#3</Note>
+                <Volume>00</Volume>
+                <Panning>Y8</Panning>
+                <EffectNumber>0R</EffectNumber>
+                <EffectValue>C3</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G#4</Note>
+                <Volume>08</Volume>
+                <Panning>Y8</Panning>
+                <EffectNumber>0R</EffectNumber>
+                <EffectValue>C3</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="7">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>I0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>I0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>D#5</Note>
+                <Volume>YA</Volume>
+                <Panning>50</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>D#4</Note>
+                <Volume>Y2</Volume>
+                <Panning>30</Panning>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="8">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-6</Note>
+                <Volume>YF</Volume>
+                <Panning>30</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-5</Note>
+                <Volume>Y8</Volume>
+                <Panning>50</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="9">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A#4</Note>
+                <Panning>Y8</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A#5</Note>
+                <Volume>Y8</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="10">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A#3</Note>
+                <Volume>00</Volume>
+                <Panning>Y8</Panning>
+                <EffectNumber>0R</EffectNumber>
+                <EffectValue>A1</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A#4</Note>
+                <Volume>00</Volume>
+                <Panning>Y8</Panning>
+                <EffectNumber>0R</EffectNumber>
+                <EffectValue>A1</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="11">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>I0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>I0</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>O0</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-4</Note>
+                <Volume>Y3</Volume>
+                <Panning>50</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-5</Note>
+                <Volume>Y8</Volume>
+                <Panning>30</Panning>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+        </Lines>
+        <Name>Arp - Wurliverse rETRIG</Name>
+        <LinesPerBeat>1</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>12</NumberOfLines>
+        <VisibleNoteColumns>6</VisibleNoteColumns>
+        <VisibleEffectColumns>1</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>true</PanningColumnIsVisible>
+        <DelayColumnIsVisible>false</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>true</Loop>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>12</LoopEnd>
+        </TriggerOptions>
+      </Phrase>
+      <Phrase>
+        <SelectedPresetName>Arp - Walking Toys</SelectedPresetName>
+        <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-6</Note>
+                <Volume>51</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="2">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>B-5</Note>
+                <Volume>2D</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>B-4</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="3">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="4">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-5</Note>
+                <Volume>46</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="6">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>G-5</Note>
+                <Volume>3B</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A-4</Note>
+                <Volume>3B</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="7">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="8">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-5</Note>
+                <Volume>3B</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="10">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>E-5</Note>
+                <Volume>31</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>46</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="11">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="12">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D-5</Note>
+                <Volume>3B</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="14">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>2D</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>B-4</Note>
+                <Volume>4D</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="15">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="16">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>B-5</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="18">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-5</Note>
+                <Volume>31</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G-4</Note>
+                <Volume>2D</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="19">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="20">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>G-5</Note>
+                <Volume>31</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="22">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-5</Note>
+                <Volume>4D</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A-4</Note>
+                <Volume>46</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="23">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="24">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>E-5</Note>
+                <Volume>31</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="26">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D-5</Note>
+                <Volume>36</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-4</Note>
+                <Volume>46</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="27">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="28">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>26</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="30">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>B-4</Note>
+                <Volume>1E</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G-4</Note>
+                <Volume>36</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="31">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+        </Lines>
+        <Name>Walking Toys</Name>
+        <LinesPerBeat>2</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>32</NumberOfLines>
+        <VisibleNoteColumns>2</VisibleNoteColumns>
+        <VisibleEffectColumns>1</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>true</PanningColumnIsVisible>
+        <DelayColumnIsVisible>false</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>true</Loop>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>32</LoopEnd>
+        </TriggerOptions>
+      </Phrase>
+    </Phrases>
+    <PhraseMap>
+      <SelectedMappingIndex>-1</SelectedMappingIndex>
+    </PhraseMap>
+  </PhraseGenerator>
+  <SampleGenerator>
+    <Samples>
+      <Sample>
+        <SelectedPresetName>Basics - elm_s_fmglock_c4</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>elm_s_fmglock_c4</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample00 (elm_s_fmglock_c4).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>0.431581497</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>2752</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>48</BaseNote>
+          <NoteStart>0</NoteStart>
+          <NoteEnd>119</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>2752</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_C-1</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample01 (S_Chaosweep_C-1).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1468</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>12</BaseNote>
+          <NoteStart>0</NoteStart>
+          <NoteEnd>14</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1468</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_D#1</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample02 (S_Chaosweep_D#1).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>4937</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>15</BaseNote>
+          <NoteStart>15</NoteStart>
+          <NoteEnd>17</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>4937</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_F#1</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample03 (S_Chaosweep_F#1).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1038</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>18</BaseNote>
+          <NoteStart>18</NoteStart>
+          <NoteEnd>20</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1038</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_A-1</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample04 (S_Chaosweep_A-1).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1745</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>21</BaseNote>
+          <NoteStart>21</NoteStart>
+          <NoteEnd>23</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1745</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_C-2</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample05 (S_Chaosweep_C-2).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>3669</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>24</BaseNote>
+          <NoteStart>24</NoteStart>
+          <NoteEnd>26</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>3669</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_D#2</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample06 (S_Chaosweep_D#2).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1851</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>27</BaseNote>
+          <NoteStart>27</NoteStart>
+          <NoteEnd>29</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1851</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_F#2</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample07 (S_Chaosweep_F#2).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1557</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>30</BaseNote>
+          <NoteStart>30</NoteStart>
+          <NoteEnd>32</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1557</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_A-2</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample08 (S_Chaosweep_A-2).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>4800</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>33</BaseNote>
+          <NoteStart>33</NoteStart>
+          <NoteEnd>35</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>4800</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_C-3</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample09 (S_Chaosweep_C-3).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>5137</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>36</BaseNote>
+          <NoteStart>36</NoteStart>
+          <NoteEnd>38</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>5137</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_D#3</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample10 (S_Chaosweep_D#3).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>2777</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>39</BaseNote>
+          <NoteStart>39</NoteStart>
+          <NoteEnd>41</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>2777</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_F#3</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample11 (S_Chaosweep_F#3).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>3373</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>42</BaseNote>
+          <NoteStart>42</NoteStart>
+          <NoteEnd>44</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>3373</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_A-3</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample12 (S_Chaosweep_A-3).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>2400</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>45</BaseNote>
+          <NoteStart>45</NoteStart>
+          <NoteEnd>47</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>2400</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_C-4</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample13 (S_Chaosweep_C-4).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>2752</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>48</BaseNote>
+          <NoteStart>48</NoteStart>
+          <NoteEnd>50</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>2752</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_D#4</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample14 (S_Chaosweep_D#4).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1697</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>51</BaseNote>
+          <NoteStart>51</NoteStart>
+          <NoteEnd>53</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1697</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_F#4</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample15 (S_Chaosweep_F#4).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1946</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>54</BaseNote>
+          <NoteStart>54</NoteStart>
+          <NoteEnd>56</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1946</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_A-4</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample16 (S_Chaosweep_A-4).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1200</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>57</BaseNote>
+          <NoteStart>57</NoteStart>
+          <NoteEnd>59</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1200</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_C-5</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample17 (S_Chaosweep_C-5).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>2752</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>60</BaseNote>
+          <NoteStart>60</NoteStart>
+          <NoteEnd>62</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>2752</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_D#5</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample18 (S_Chaosweep_D#5).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1080</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>63</BaseNote>
+          <NoteStart>63</NoteStart>
+          <NoteEnd>65</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1080</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_F#5</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample19 (S_Chaosweep_F#5).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1946</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>66</BaseNote>
+          <NoteStart>66</NoteStart>
+          <NoteEnd>68</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1946</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_A-5</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample20 (S_Chaosweep_A-5).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1091</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>69</BaseNote>
+          <NoteStart>69</NoteStart>
+          <NoteEnd>71</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1091</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_C-6</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample21 (S_Chaosweep_C-6).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1743</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>72</BaseNote>
+          <NoteStart>72</NoteStart>
+          <NoteEnd>74</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1743</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_D#6</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample22 (S_Chaosweep_D#6).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1080</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>75</BaseNote>
+          <NoteStart>75</NoteStart>
+          <NoteEnd>77</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1080</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_F#6</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample23 (S_Chaosweep_F#6).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>973</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>78</BaseNote>
+          <NoteStart>78</NoteStart>
+          <NoteEnd>80</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>973</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_A-6</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample24 (S_Chaosweep_A-6).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>600</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>81</BaseNote>
+          <NoteStart>81</NoteStart>
+          <NoteEnd>83</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>600</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_C-7</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample25 (S_Chaosweep_C-7).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>2752</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>84</BaseNote>
+          <NoteStart>84</NoteStart>
+          <NoteEnd>86</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>2752</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_D#7</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample26 (S_Chaosweep_D#7).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>2507</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>87</BaseNote>
+          <NoteStart>87</NoteStart>
+          <NoteEnd>89</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>2507</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_F#7</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample27 (S_Chaosweep_F#7).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>3146</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>90</BaseNote>
+          <NoteStart>90</NoteStart>
+          <NoteEnd>92</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>3146</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_A-7</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample28 (S_Chaosweep_A-7).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>900</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>93</BaseNote>
+          <NoteStart>93</NoteStart>
+          <NoteEnd>95</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>900</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_C-8</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample29 (S_Chaosweep_C-8).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1720</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>96</BaseNote>
+          <NoteStart>96</NoteStart>
+          <NoteEnd>98</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1720</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_D#8</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample30 (S_Chaosweep_D#8).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>2642</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>99</BaseNote>
+          <NoteStart>99</NoteStart>
+          <NoteEnd>101</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>2642</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_F#8</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample31 (S_Chaosweep_F#8).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>3146</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>102</BaseNote>
+          <NoteStart>102</NoteStart>
+          <NoteEnd>104</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>3146</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_A-8</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample32 (S_Chaosweep_A-8).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1650</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>105</BaseNote>
+          <NoteStart>105</NoteStart>
+          <NoteEnd>107</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1650</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_C-9</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample33 (S_Chaosweep_C-9).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1376</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>108</BaseNote>
+          <NoteStart>108</NoteStart>
+          <NoteEnd>110</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1376</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_D#9</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample34 (S_Chaosweep_D#9).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1591</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>111</BaseNote>
+          <NoteStart>111</NoteStart>
+          <NoteEnd>113</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1591</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_F#9</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample35 (S_Chaosweep_F#9).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1273</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>114</BaseNote>
+          <NoteStart>114</NoteStart>
+          <NoteEnd>116</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1273</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>S_Chaosweep_A-9</Name>
+        <FileName>//File:C:\Program Files\Renoise 3.1.0 b5\Resources\Library\Instruments\Synth\Synth Glassy Pad.xrni\SampleData\Sample36 (S_Chaosweep_A-9).flac</FileName>
+        <FileModificationDate>2015-11-13</FileModificationDate>
+        <FileModificationDayTime>04:34:28</FileModificationDayTime>
+        <Volume>3.26274538</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>675</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>117</BaseNote>
+          <NoteStart>117</NoteStart>
+          <NoteEnd>119</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>675</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+    </Samples>
+    <SelectedSampleIndex>0</SelectedSampleIndex>
+    <ModulationSets>
+      <ModulationSet>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Devices>
+          <SampleMixerModulationDevice type="SampleMixerModulationDevice">
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Volume>
+              <Value>0.645833313</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <Panning>
+              <Value>-0.167999998</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Pitch>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Pitch>
+            <PitchModulationRange>12</PitchModulationRange>
+            <Cutoff>
+              <Value>72.6440277</Value>
+              <Visualization>Device only</Visualization>
+            </Cutoff>
+            <Resonance>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Resonance>
+            <Drive>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Drive>
+          </SampleMixerModulationDevice>
+          <SampleAhdsrModulationDevice type="SampleAhdsrModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Attack>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Hold>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Hold>
+            <Decay>
+              <Value>0.110999703</Value>
+              <Visualization>Device only</Visualization>
+            </Decay>
+            <Sustain>
+              <Value>0.505313396</Value>
+              <Visualization>Device only</Visualization>
+            </Sustain>
+            <Release>
+              <Value>0.311999351</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+          </SampleAhdsrModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Linear</Scaling>
+            <From>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.131200373</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleKeyTrackingModulationDevice type="SampleKeyTrackingModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Min>
+              <Value>110.907959</Value>
+              <Visualization>Device only</Visualization>
+            </Min>
+            <Max>
+              <Value>57.0492325</Value>
+              <Visualization>Device only</Visualization>
+            </Max>
+          </SampleKeyTrackingModulationDevice>
+          <SampleLfoModulationDevice type="SampleLfoModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Pitch</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Mode>Sin</Mode>
+            <Frequency>
+              <Value>0.728539646</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency>
+            <Amplitude>
+              <Value>0.0199999996</Value>
+              <Visualization>Device only</Visualization>
+            </Amplitude>
+            <Dephase>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Dephase>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleLfoModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Pitch</Target>
+            <Operator>+</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Linear</Scaling>
+            <From>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.100072838</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleLfoModulationDevice type="SampleLfoModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Pitch</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Mode>Sin</Mode>
+            <Frequency>
+              <Value>0.291999847</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency>
+            <Amplitude>
+              <Value>0.00332538597</Value>
+              <Visualization>Device only</Visualization>
+            </Amplitude>
+            <Dephase>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Dephase>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleLfoModulationDevice>
+          <SampleLfoModulationDevice type="SampleLfoModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Panning</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Mode>Sin</Mode>
+            <Frequency>
+              <Value>0.291999847</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency>
+            <Amplitude>
+              <Value>0.397142529</Value>
+              <Visualization>Device only</Visualization>
+            </Amplitude>
+            <Dephase>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Dephase>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleLfoModulationDevice>
+          <SampleAhdsrModulationDevice type="SampleAhdsrModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Cutoff</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Attack>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Hold>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Hold>
+            <Decay>
+              <Value>0.147999555</Value>
+              <Visualization>Device only</Visualization>
+            </Decay>
+            <Sustain>
+              <Value>0.463320255</Value>
+              <Visualization>Device only</Visualization>
+            </Sustain>
+            <Release>
+              <Value>0.431998909</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+          </SampleAhdsrModulationDevice>
+        </Devices>
+        <Name>fmglock</Name>
+        <FilterType>1</FilterType>
+        <FilterBankVersion>3</FilterBankVersion>
+      </ModulationSet>
+      <ModulationSet>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Devices>
+          <SampleMixerModulationDevice type="SampleMixerModulationDevice">
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Volume>
+              <Value>0.423999518</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <Panning>
+              <Value>0.224000007</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Pitch>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Pitch>
+            <PitchModulationRange>12</PitchModulationRange>
+            <Cutoff>
+              <Value>78.6231842</Value>
+              <Visualization>Device only</Visualization>
+            </Cutoff>
+            <Resonance>
+              <Value>104.139946</Value>
+              <Visualization>Device only</Visualization>
+            </Resonance>
+            <Drive>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Drive>
+          </SampleMixerModulationDevice>
+          <SampleKeyTrackingModulationDevice type="SampleKeyTrackingModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Min>
+              <Value>104.720039</Value>
+              <Visualization>Device only</Visualization>
+            </Min>
+            <Max>
+              <Value>65.8925629</Value>
+              <Visualization>Device only</Visualization>
+            </Max>
+          </SampleKeyTrackingModulationDevice>
+          <SampleAhdsrModulationDevice type="SampleAhdsrModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Attack>
+              <Value>0.141040534</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Hold>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Hold>
+            <Decay>
+              <Value>0.110996015</Value>
+              <Visualization>Device only</Visualization>
+            </Decay>
+            <Sustain>
+              <Value>0.280000001</Value>
+              <Visualization>Device only</Visualization>
+            </Sustain>
+            <Release>
+              <Value>0.345599234</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+          </SampleAhdsrModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>+</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Log Fast</Scaling>
+            <From>
+              <Value>0.436080337</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.0884800106</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Resonance</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Log Fast</Scaling>
+            <From>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.609117866</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.586176455</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleLfoModulationDevice type="SampleLfoModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Resonance</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Mode>Sin</Mode>
+            <Frequency>
+              <Value>0.291999847</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency>
+            <Amplitude>
+              <Value>0.0871735513</Value>
+              <Visualization>Device only</Visualization>
+            </Amplitude>
+            <Dephase>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Dephase>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleLfoModulationDevice>
+          <SampleLfoModulationDevice type="SampleLfoModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Resonance</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Mode>Sin</Mode>
+            <Frequency>
+              <Value>0.243073955</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency>
+            <Amplitude>
+              <Value>0.030644618</Value>
+              <Visualization>Device only</Visualization>
+            </Amplitude>
+            <Dephase>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Dephase>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleLfoModulationDevice>
+          <SampleLfoModulationDevice type="SampleLfoModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Panning</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Mode>Sin</Mode>
+            <Frequency>
+              <Value>0.291999847</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency>
+            <Amplitude>
+              <Value>0.397142529</Value>
+              <Visualization>Device only</Visualization>
+            </Amplitude>
+            <Dephase>
+              <Value>162.720093</Value>
+              <Visualization>Device only</Visualization>
+            </Dephase>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleLfoModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Cutoff</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Log Slow</Scaling>
+            <From>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.618975163</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.70839709</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleLfoModulationDevice type="SampleLfoModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Pitch</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Mode>Sin</Mode>
+            <Frequency>
+              <Value>0.291999847</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency>
+            <Amplitude>
+              <Value>0.0041567185</Value>
+              <Visualization>Device only</Visualization>
+            </Amplitude>
+            <Dephase>
+              <Value>113.759972</Value>
+              <Visualization>Device only</Visualization>
+            </Dephase>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleLfoModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Pitch</Target>
+            <Operator>-</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Exp Slow</Scaling>
+            <From>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleAhdsrModulationDevice type="SampleAhdsrModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Cutoff</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Attack>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Hold>
+              <Value>0.136000007</Value>
+              <Visualization>Device only</Visualization>
+            </Hold>
+            <Decay>
+              <Value>0.540694475</Value>
+              <Visualization>Device only</Visualization>
+            </Decay>
+            <Sustain>
+              <Value>0.746710539</Value>
+              <Visualization>Device only</Visualization>
+            </Sustain>
+            <Release>
+              <Value>0.479998738</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+          </SampleAhdsrModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Cutoff</Target>
+            <Operator>+</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Linear</Scaling>
+            <From>
+              <Value>0.29983452</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.0758400112</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Drive</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Linear</Scaling>
+            <From>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.210980311</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Drive</Target>
+            <Operator>+</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Linear</Scaling>
+            <From>
+              <Value>0.346404284</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.101120457</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleOperandModulationDevice type="SampleOperandModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Drive</Target>
+            <Operator>+</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Value>
+              <Value>0.00881893933</Value>
+              <Visualization>Device only</Visualization>
+            </Value>
+          </SampleOperandModulationDevice>
+        </Devices>
+        <Name>chaosweep</Name>
+        <FilterType>11</FilterType>
+        <FilterBankVersion>3</FilterBankVersion>
+      </ModulationSet>
+    </ModulationSets>
+    <SelectedModulationSetIndex>0</SelectedModulationSetIndex>
+    <DeviceChains>
+      <DeviceChain>
+        <SelectedPresetName>Evolving Frequecies #2</SelectedPresetName>
+        <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Devices>
+          <SampleMixerDevice type="SampleMixerDevice">
+            <CustomDeviceName>Mixer</CustomDeviceName>
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>false</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Panning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Volume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <PostPanning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </PostPanning>
+            <PostVolume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </PostVolume>
+          </SampleMixerDevice>
+          <CompressorDevice type="CompressorDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <LogThreshold>
+              <Value>12.9980288</Value>
+              <Visualization>Device only</Visualization>
+            </LogThreshold>
+            <Ratio>
+              <Value>5.21686172</Value>
+              <Visualization>Device only</Visualization>
+            </Ratio>
+            <Attack>
+              <Value>0.61994797</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Release>
+              <Value>14.3999538</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+            <Gain>
+              <Value>6</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </Gain>
+          </CompressorDevice>
+          <Chorus2Device type="Chorus2Device">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Rate>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Rate>
+            <Depth>
+              <Value>0.236330792</Value>
+              <Visualization>Device only</Visualization>
+            </Depth>
+            <Feedback>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Feedback>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+            <DryWetMix>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </DryWetMix>
+            <Dephase>
+              <Value>3.14159274</Value>
+              <Visualization>Device only</Visualization>
+            </Dephase>
+            <FilterType>
+              <Value>11</Value>
+              <Visualization>Device only</Visualization>
+            </FilterType>
+            <FilterFreq>
+              <Value>127</Value>
+              <Visualization>Device only</Visualization>
+            </FilterFreq>
+            <FilterResonance>
+              <Value>20.7933941</Value>
+              <Visualization>Device only</Visualization>
+            </FilterResonance>
+            <FilterDrive>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </FilterDrive>
+          </Chorus2Device>
+          <Reverb3Device type="Reverb3Device">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <ReverbTime>
+              <Value>28.8319988</Value>
+              <Visualization>Device only</Visualization>
+            </ReverbTime>
+            <PreDelay>
+              <Value>10</Value>
+              <Visualization>Device only</Visualization>
+            </PreDelay>
+            <LPFilter>
+              <Value>4000</Value>
+              <Visualization>Device only</Visualization>
+            </LPFilter>
+            <LPGain>
+              <Value>-3.60000038</Value>
+              <Visualization>Device only</Visualization>
+            </LPGain>
+            <Color>
+              <Value>0.69424814</Value>
+              <Visualization>Device only</Visualization>
+            </Color>
+            <Width>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Width>
+            <Pan>
+              <Value>0.618479252</Value>
+              <Visualization>Device only</Visualization>
+            </Pan>
+            <WetMix>
+              <Value>0.224360034</Value>
+              <Visualization>Device only</Visualization>
+            </WetMix>
+            <DryMix>
+              <Value>0.716000021</Value>
+              <Visualization>Device only</Visualization>
+            </DryMix>
+          </Reverb3Device>
+          <BusCompressorDevice type="BusCompressorDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Threshold>
+              <Value>-19.7970219</Value>
+              <Visualization>Device only</Visualization>
+            </Threshold>
+            <Ratio>
+              <Value>0.327570617</Value>
+              <Visualization>Device only</Visualization>
+            </Ratio>
+            <Attack>
+              <Value>0.12128929</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Release>
+              <Value>0.206611574</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+            <MakeUp>
+              <Value>16.1529884</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </MakeUp>
+            <Knee>
+              <Value>6.87333393</Value>
+              <Visualization>Device only</Visualization>
+            </Knee>
+          </BusCompressorDevice>
+          <MixerEqDevice type="MixerEqDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <InputMode>L+R</InputMode>
+            <MaxVisualizedGain>18</MaxVisualizedGain>
+            <LowGain>
+              <Value>-12.9040661</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </LowGain>
+            <MidGain>
+              <Value>0.0</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </MidGain>
+            <MidFreq>
+              <Value>0.600000024</Value>
+              <Visualization>Device only</Visualization>
+            </MidFreq>
+            <MidQ>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </MidQ>
+            <HiGain>
+              <Value>0.0</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </HiGain>
+          </MixerEqDevice>
+        </Devices>
+        <Name>FX Chain 01</Name>
+        <RoutingIndex>-1</RoutingIndex>
+      </DeviceChain>
+    </DeviceChains>
+    <SelectedDeviceChainIndex>0</SelectedDeviceChainIndex>
+    <KeyzoneOverlappingMode>Play All</KeyzoneOverlappingMode>
+    <SplitMap>
+      <SelectedPresetName>S_Waldorf - S_Chaosweep</SelectedPresetName>
+      <SelectedPresetLibrary>Elements</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+    </SplitMap>
+  </SampleGenerator>
+  <PluginGenerator>
+    <Channel>0</Channel>
+    <Transpose>0</Transpose>
+    <Volume>1.0</Volume>
+    <OutputRoutings>
+      <OutputRouting>
+        <Enabled>true</Enabled>
+        <Name>Bus #01</Name>
+        <MixMode>L+R</MixMode>
+        <AutoAssign>true</AutoAssign>
+        <AssignedTrack>-1</AssignedTrack>
+      </OutputRouting>
+    </OutputRoutings>
+    <MidiOutputRoutingIndex>-1</MidiOutputRoutingIndex>
+    <AutoSuspend>true</AutoSuspend>
+    <AliasInstrumentIndex>-1</AliasInstrumentIndex>
+    <AliasFxIndices>-1,-1</AliasFxIndices>
+  </PluginGenerator>
+  <MidiGenerator>
+    <Channel>0</Channel>
+    <InstrumentType>ext. MIDI</InstrumentType>
+    <Delay>0</Delay>
+    <Program>-1</Program>
+    <Bank>-1</Bank>
+    <BankOrder>MSB, LSB</BankOrder>
+    <Transpose>0</Transpose>
+    <Length>8000</Length>
+  </MidiGenerator>
+  <ActiveGeneratorTab>Samples</ActiveGeneratorTab>
+</RenoiseInstrument>

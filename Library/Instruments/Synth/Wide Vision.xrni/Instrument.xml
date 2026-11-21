@@ -1,0 +1,4200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseInstrument doc_version="31">
+  <SelectedPresetName>(DN) Wide Vision</SelectedPresetName>
+  <SelectedPresetIsModified>true</SelectedPresetIsModified>
+  <Name>Wide Vision</Name>
+  <CopyIntoNewSampleNameCounter>0</CopyIntoNewSampleNameCounter>
+  <CopyIntoNewInstrumentNameCounter>0</CopyIntoNewInstrumentNameCounter>
+  <GlobalProperties>
+    <Macro0>
+      <Value>47.9999962</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Vibrato</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>2</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.0649999306</Max>
+          <Scaling>Exp Slow</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.320031196</Min>
+          <Max>0.799979925</Max>
+          <Scaling>Log Slow</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>61.5999985</Value>
+      <Visualization>Device only</Visualization>
+      <Name>PitchStart</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.400000006</Min>
+          <Max>0.600000024</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>26.6666679</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Release</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0199999996</Min>
+          <Max>0.590000391</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>9</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0199999996</Min>
+          <Max>0.520000458</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>7</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.00999999978</Min>
+          <Max>0.600000381</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>7</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0199999996</Min>
+          <Max>0.500000477</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>100</Value>
+      <Visualization>Device only</Visualization>
+      <Name>RevMix</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>SampleDSP</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Log Slow</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>SampleDSP</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.0</Max>
+          <Scaling>Exp Slow</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro3>
+    <Macro4>
+      <Value>100</Value>
+      <Visualization>Device only</Visualization>
+      <Name>GlassFreq</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro4>
+    <Macro5>
+      <Value>37.2000237</Value>
+      <Visualization>Device only</Visualization>
+      <Name>LowMix</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>SampleDSP</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>5</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.511115074</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>SampleDSP</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.497226268</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>1.0</Min>
+          <Max>0.180000678</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro5>
+    <Macro6>
+      <Value>78.4313812</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Gain</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>SampleDSP</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.248313159</Max>
+          <Scaling>Exp Slow</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>SampleDSP</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.319889277</Max>
+          <Scaling>Log Slow</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro6>
+    <Macro7>
+      <Value>50</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Macro 8</Name>
+    </Macro7>
+    <PitchbendMacro>
+      <Value>50</Value>
+      <Visualization>Device only</Visualization>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>4</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>6</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </PitchbendMacro>
+    <ModulationWheelMacro>
+      <Value>60.4000206</Value>
+      <Visualization>Device only</Visualization>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>12</DestDeviceIndex>
+          <DestParameterIndex>3</DestParameterIndex>
+          <Min>0.210000023</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>0</DestDeviceIndex>
+          <DestParameterIndex>6</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.340000629</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </ModulationWheelMacro>
+    <ChannelPressureMacro>
+      <Value>0.0</Value>
+      <Visualization>Device only</Visualization>
+      <Mappings>
+        <Mapping>
+          <DestChainType>ModulationSet</DestChainType>
+          <DestChainIndex>1</DestChainIndex>
+          <DestDeviceIndex>12</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </ChannelPressureMacro>
+    <MacrosVisible>true</MacrosVisible>
+    <Volume>1.0</Volume>
+    <Transpose>0</Transpose>
+    <Scale>None</Scale>
+    <ScaleKey>C</ScaleKey>
+    <Quantize>None</Quantize>
+    <Monophonic>false</Monophonic>
+    <MonophonicGlide>0</MonophonicGlide>
+    <Comments>
+      <Comment>Spatious sound composed of sinewaves and glassy reversed bells</Comment>
+      <Comment/>
+      <Comment>@ Pitchbend +/- 12 semitones</Comment>
+      <Comment>@ Modwheel - filt.drive</Comment>
+      <Comment>@ Pressure - even more drive</Comment>
+      <Comment>-</Comment>
+      <Comment>@ Vibrato - add vibrato</Comment>
+      <Comment>@ PitchStart - inital pitch @ Release - release time</Comment>
+      <Comment>@ RevMix - dry/wet signal</Comment>
+      <Comment>@ GlassFreq - glass layer LP</Comment>
+      <Comment>@ LowMix - upper/lower mix</Comment>
+      <Comment>@ Gain - overall volume</Comment>
+    </Comments>
+    <ShowCommentsAfterLoading>false</ShowCommentsAfterLoading>
+    <BeatsPerMin>138</BeatsPerMin>
+  </GlobalProperties>
+  <MidiInputProperties>
+    <Channel>-1</Channel>
+    <NoteRangeStart>0</NoteRangeStart>
+    <NoteRangeEnd>119</NoteRangeEnd>
+    <AssignedTrack>-1</AssignedTrack>
+  </MidiInputProperties>
+  <PhraseGenerator>
+    <PlaybackSync>false</PlaybackSync>
+    <PlaybackMode>Selective</PlaybackMode>
+    <SelectedPhraseIndex>2</SelectedPhraseIndex>
+    <Phrases>
+      <Phrase>
+        <SelectedPresetName>Arp - Humming along</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="1">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="2">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>G-5</Note>
+                <Volume>20</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="3">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="4">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A#3</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="5">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>F-3</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>F-5</Note>
+                <Volume>18</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="6">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A#2</Note>
+                <Volume>60</Volume>
+                <EffectNumber>0A</EffectNumber>
+                <EffectValue>47</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="7">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>D#4</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="8">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-2</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A#4</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="9">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>G-3</Note>
+                <Volume>50</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>D#6</Note>
+                <Volume>20</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="10">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>2C</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="11">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-6</Note>
+                <Volume>20</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="12">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A#5</Note>
+                <Volume>20</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="13">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="14">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A#2</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="15">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="16">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="17">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="18">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A#4</Note>
+                <Volume>21</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="19">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="20">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A#3</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="21">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>F-3</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>D#5</Note>
+                <Volume>36</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="22">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A#2</Note>
+                <Volume>60</Volume>
+                <EffectNumber>0A</EffectNumber>
+                <EffectValue>47</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="23">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>D#4</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="24">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>50</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A#4</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="25">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>G-3</Note>
+                <Volume>50</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>D#6</Note>
+                <Volume>20</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="26">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-2</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>2C</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="27">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-6</Note>
+                <Volume>20</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="28">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A#5</Note>
+                <Volume>20</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="29">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="30">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A#2</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>D#5</Note>
+                <Volume>30</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>A0</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="31">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+        </Lines>
+        <Name>Arp - Humming along</Name>
+        <LinesPerBeat>4</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>32</NumberOfLines>
+        <VisibleNoteColumns>5</VisibleNoteColumns>
+        <VisibleEffectColumns>1</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>false</PanningColumnIsVisible>
+        <DelayColumnIsVisible>false</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>true</Loop>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>32</LoopEnd>
+        </TriggerOptions>
+      </Phrase>
+      <Phrase>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="1">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="3">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>50</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="4">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="6">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>50</Volume>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="7">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="8">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>F-2</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="9">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>D#6</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G-3</Note>
+                <Volume>50</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="10">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="11">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-6</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="12">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A#5</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="13">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="14">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A#2</Note>
+                <Volume>60</Volume>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="15">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="16">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="17">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="19">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>50</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="20">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="22">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>50</Volume>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="23">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="25">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>D#6</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="27">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-6</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="28">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A#5</Note>
+                <Volume>30</Volume>
+                <EffectNumber>0V</EffectNumber>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="29">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+                <EffectNumber>0V</EffectNumber>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="30">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A#2</Note>
+                <Volume>70</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>D#5</Note>
+                <Volume>30</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>A0</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A#2</Note>
+                <Volume>40</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="31">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+        </Lines>
+        <Name>Arp - Humming along (reduced)</Name>
+        <LinesPerBeat>4</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>32</NumberOfLines>
+        <VisibleNoteColumns>4</VisibleNoteColumns>
+        <VisibleEffectColumns>1</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+          <NoteColumnState>Off</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>false</PanningColumnIsVisible>
+        <DelayColumnIsVisible>false</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>true</Loop>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>32</LoopEnd>
+        </TriggerOptions>
+      </Phrase>
+      <Phrase>
+        <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>G-4</Note>
+                <Volume>YF</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G-5</Note>
+                <Volume>Y2</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>80</Value>
+                <Number>0O</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="1">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>Y8</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>Y8</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>92</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="2">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D-5</Note>
+                <Volume>YA</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>D-6</Note>
+                <Volume>YF</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Number>0O</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>31</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="3">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>G-4</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G-5</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>40</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="4">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A#5</Note>
+                <Volume>YF</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A#6</Note>
+                <Volume>Y2</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Number>0O</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>50</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="5">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>D#5</Note>
+                <Volume>YA</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>D#6</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>61</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="6">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-6</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-6</Note>
+                <Volume>YF</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Number>0O</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>72</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="7">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A#5</Note>
+                <Volume>YA</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A#5</Note>
+                <Volume>Y2</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>83</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="8">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-7</Note>
+                <Volume>YF</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-7</Note>
+                <Volume>Y8</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Number>0O</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>94</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="9">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>F-6</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>D#6</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>65</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>10</Value>
+                <Number>0D</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="10">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-7</Note>
+                <Volume>YA</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G-7</Note>
+                <Volume>Y2</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Number>0O</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>46</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="11">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-7</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-7</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>57</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>FF</Value>
+                <Number>0O</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+        </Lines>
+        <Name>Arp - Quiet Evolution</Name>
+        <LinesPerBeat>3</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>12</NumberOfLines>
+        <VisibleNoteColumns>4</VisibleNoteColumns>
+        <VisibleEffectColumns>5</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>false</PanningColumnIsVisible>
+        <DelayColumnIsVisible>false</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>true</Loop>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>12</LoopEnd>
+        </TriggerOptions>
+        <SelectedPresetName>Arp - Quiet Evolution B</SelectedPresetName>
+        <SelectedPresetIsModified>false</SelectedPresetIsModified>
+      </Phrase>
+      <Phrase>
+        <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>YF</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>Y2</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>40</Value>
+                <Number>0O</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="1">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>Y8</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>92</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="2">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>G-4</Note>
+                <Volume>YA</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G-4</Note>
+                <Volume>YF</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Number>0O</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>31</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="3">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>G-4</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>40</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="4">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D#5</Note>
+                <Volume>YF</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>D#5</Note>
+                <Volume>Y2</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Number>0O</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>50</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="5">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>D#5</Note>
+                <Volume>YA</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>61</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="6">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A#5</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A#4</Note>
+                <Volume>YF</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Number>0O</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>72</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="7">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A#5</Note>
+                <Volume>YA</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>83</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="8">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-6</Note>
+                <Volume>YF</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-5</Note>
+                <Volume>Y8</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Number>0O</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>94</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="9">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-6</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>65</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>10</Value>
+                <Number>0D</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="10">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A#6</Note>
+                <Volume>YA</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-6</Note>
+                <Volume>Y2</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Number>0O</Number>
+              </EffectColumn>
+              <EffectColumn/>
+              <EffectColumn>
+                <Value>46</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+          <Line index="11">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>C-7</Note>
+                <Volume>Y8</Volume>
+                <EffectNumber>0G</EffectNumber>
+                <EffectValue>FF</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn>
+                <Number>0Y</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>57</Value>
+                <Number>0E</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Number>0I</Number>
+              </EffectColumn>
+              <EffectColumn>
+                <Value>FF</Value>
+                <Number>0O</Number>
+              </EffectColumn>
+            </EffectColumns>
+          </Line>
+        </Lines>
+        <Name>Arp - Quiet Evolution 2</Name>
+        <LinesPerBeat>3</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>12</NumberOfLines>
+        <VisibleNoteColumns>4</VisibleNoteColumns>
+        <VisibleEffectColumns>5</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>false</PanningColumnIsVisible>
+        <DelayColumnIsVisible>false</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>true</Loop>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>12</LoopEnd>
+        </TriggerOptions>
+        <SelectedPresetName>Arp - Quiet Evolution 2b</SelectedPresetName>
+        <SelectedPresetIsModified>false</SelectedPresetIsModified>
+      </Phrase>
+      <Phrase>
+        <SelectedPresetName>Arp - C and F alternate</SelectedPresetName>
+        <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>GF</Volume>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>10</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="1">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>OF</Volume>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>20</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="2">
+            <NoteColumns>
+              <NoteColumn>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>30</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="3">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>40</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="4">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>G0</Volume>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>50</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="5">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>OF</Volume>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>60</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="6">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>GF</Volume>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>70</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="7">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>G0</Volume>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>80</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="8">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-4</Note>
+                <Volume>G0</Volume>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>90</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="9">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-5</Note>
+                <Volume>G0</Volume>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>80</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="10">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-6</Note>
+                <Volume>G0</Volume>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>70</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="11">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-4</Note>
+                <Volume>G0</Volume>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>60</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="12">
+            <NoteColumns>
+              <NoteColumn>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>50</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="13">
+            <NoteColumns>
+              <NoteColumn>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>40</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="14">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>GE</Volume>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+          <Line index="15">
+            <NoteColumns>
+              <NoteColumn>
+                <Volume>OF</Volume>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>20</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+          </Line>
+        </Lines>
+        <Name>Arp - C and F alternate</Name>
+        <LinesPerBeat>4</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>16</NumberOfLines>
+        <VisibleNoteColumns>4</VisibleNoteColumns>
+        <VisibleEffectColumns>1</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>false</PanningColumnIsVisible>
+        <DelayColumnIsVisible>false</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>true</Loop>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>16</LoopEnd>
+        </TriggerOptions>
+      </Phrase>
+      <Phrase>
+        <SelectedPresetName>Arp - Chanting #2</SelectedPresetName>
+        <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>67</Volume>
+                <Panning>C4</Panning>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-6</Note>
+                <Volume>00</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="1">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="4">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>59</Volume>
+                <Panning>60</Panning>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>70</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="5">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>30</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="6">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>10</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="7">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <EffectNumber>0O</EffectNumber>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="8">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>02</Volume>
+                <Panning>20</Panning>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="12">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-3</Note>
+                <Volume>67</Volume>
+                <Panning>C6</Panning>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>01</Volume>
+                <Panning>70</Panning>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="13">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="20">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>07</Volume>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+                <Volume>I4</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="21">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>17</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="22">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>37</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="23">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>57</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="24">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-4</Note>
+                <Volume>77</Volume>
+                <Panning>C7</Panning>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+        </Lines>
+        <Name>Arp - Chanting #2</Name>
+        <LinesPerBeat>8</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>32</NumberOfLines>
+        <VisibleNoteColumns>4</VisibleNoteColumns>
+        <VisibleEffectColumns>1</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>true</PanningColumnIsVisible>
+        <DelayColumnIsVisible>false</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>true</Loop>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>32</LoopEnd>
+        </TriggerOptions>
+      </Phrase>
+      <Phrase>
+        <SelectedPresetName>Arp - Chanting</SelectedPresetName>
+        <SelectedPresetLibrary>User Library</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-2</Note>
+                <Volume>67</Volume>
+                <Panning>C4</Panning>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>00</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="1">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="4">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>59</Volume>
+                <Panning>60</Panning>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>70</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="5">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>30</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="6">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <EffectNumber>0O</EffectNumber>
+                <EffectValue>10</EffectValue>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="7">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <EffectNumber>0O</EffectNumber>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="8">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>02</Volume>
+                <Panning>20</Panning>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="12">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-2</Note>
+                <Volume>67</Volume>
+                <Panning>C6</Panning>
+              </NoteColumn>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>01</Volume>
+                <Panning>70</Panning>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="13">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="20">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>OFF</Note>
+                <Volume>I4</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="24">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>C-5</Note>
+                <Volume>77</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="26">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+        </Lines>
+        <Name>Arp - Chanting</Name>
+        <LinesPerBeat>8</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>32</NumberOfLines>
+        <VisibleNoteColumns>4</VisibleNoteColumns>
+        <VisibleEffectColumns>1</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>true</PanningColumnIsVisible>
+        <DelayColumnIsVisible>false</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>true</Loop>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>32</LoopEnd>
+        </TriggerOptions>
+      </Phrase>
+    </Phrases>
+    <PhraseMap>
+      <SelectedMappingIndex>-1</SelectedMappingIndex>
+    </PhraseMap>
+  </PhraseGenerator>
+  <SampleGenerator>
+    <Samples>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>GlockenXFade_C-5</Name>
+        <Volume>4</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>Cut</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>true</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>78159</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>60</BaseNote>
+          <NoteStart>24</NoteStart>
+          <NoteEnd>53</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>78159</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>GlockenXFade_F#5</Name>
+        <Volume>4</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>Cut</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>true</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>69154</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>66</BaseNote>
+          <NoteStart>54</NoteStart>
+          <NoteEnd>59</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>69154</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>GlockenXFade_C-6</Name>
+        <Volume>4</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>Cut</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>true</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>49058</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>72</BaseNote>
+          <NoteStart>60</NoteStart>
+          <NoteEnd>65</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>49058</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>GlockenXFade_F#6</Name>
+        <Volume>4</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>Cut</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>true</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>43712</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>78</BaseNote>
+          <NoteStart>66</NoteStart>
+          <NoteEnd>71</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>43712</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>GlockenXFade_C-7</Name>
+        <Volume>4</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>Cut</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>true</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>40086</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>84</BaseNote>
+          <NoteStart>72</NoteStart>
+          <NoteEnd>80</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>40086</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>GlockenXFade_C-8</Name>
+        <Volume>4</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>Cut</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>true</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>21643</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>96</BaseNote>
+          <NoteStart>81</NoteStart>
+          <NoteEnd>89</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>21643</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>GlockenXFade_F#8</Name>
+        <Volume>4</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>Cut</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>true</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>16548</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>102</BaseNote>
+          <NoteStart>90</NoteStart>
+          <NoteEnd>95</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>16548</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>GlockenXFade_C-9</Name>
+        <Volume>4</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>Cut</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>true</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>11091</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>1</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>108</BaseNote>
+          <NoteStart>96</NoteStart>
+          <NoteEnd>107</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>11091</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>Sinewave</Name>
+        <Volume>2.31119323</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>48</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>true</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>2697</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>1</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>60</BaseNote>
+          <NoteStart>24</NoteStart>
+          <NoteEnd>107</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>2697</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+    </Samples>
+    <SelectedSampleIndex>8</SelectedSampleIndex>
+    <ModulationSets>
+      <ModulationSet>
+        <SelectedPresetName>Gearbox Shifting</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Devices>
+          <SampleMixerModulationDevice type="SampleMixerModulationDevice">
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Volume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <Panning>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Pitch>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Pitch>
+            <PitchModulationRange>12</PitchModulationRange>
+            <Cutoff>
+              <Value>17.0100212</Value>
+              <Visualization>Device only</Visualization>
+            </Cutoff>
+            <Resonance>
+              <Value>127</Value>
+              <Visualization>Device only</Visualization>
+            </Resonance>
+            <Drive>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Drive>
+          </SampleMixerModulationDevice>
+          <SampleAhdsrModulationDevice type="SampleAhdsrModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Attack>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Hold>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Hold>
+            <Decay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Decay>
+            <Sustain>
+              <Value>0.210181311</Value>
+              <Visualization>Device only</Visualization>
+            </Sustain>
+            <Release>
+              <Value>0.17200011</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+          </SampleAhdsrModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>+</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Log Slow</Scaling>
+            <From>
+              <Value>0.0435294434</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.9256531</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.266980141</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>-</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Log Slow</Scaling>
+            <From>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.743306041</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.346980214</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleOperandModulationDevice type="SampleOperandModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Value>
+              <Value>0.484706134</Value>
+              <Visualization>Device only</Visualization>
+            </Value>
+          </SampleOperandModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Log Slow</Scaling>
+            <From>
+              <Value>0.688396811</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.610810339</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleOperandModulationDevice type="SampleOperandModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Pitch</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Value>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Value>
+          </SampleOperandModulationDevice>
+          <SampleAhdsrModulationDevice type="SampleAhdsrModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Attack>
+              <Value>0.00999999978</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Hold>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Hold>
+            <Decay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Decay>
+            <Sustain>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Sustain>
+            <Release>
+              <Value>0.167333454</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+          </SampleAhdsrModulationDevice>
+        </Devices>
+        <Name>sine</Name>
+        <FilterType>0</FilterType>
+        <FilterBankVersion>3</FilterBankVersion>
+      </ModulationSet>
+      <ModulationSet>
+        <SelectedPresetName>Slow Taps</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Devices>
+          <SampleMixerModulationDevice type="SampleMixerModulationDevice">
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Volume>
+              <Value>0.694960058</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <Panning>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Pitch>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Pitch>
+            <PitchModulationRange>12</PitchModulationRange>
+            <Cutoff>
+              <Value>127</Value>
+              <Visualization>Device only</Visualization>
+            </Cutoff>
+            <Resonance>
+              <Value>97.7899475</Value>
+              <Visualization>Device only</Visualization>
+            </Resonance>
+            <Drive>
+              <Value>26.0807781</Value>
+              <Visualization>Device only</Visualization>
+            </Drive>
+          </SampleMixerModulationDevice>
+          <SampleLfoModulationDevice type="SampleLfoModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Pitch</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Mode>Sin</Mode>
+            <Frequency>
+              <Value>0.638647139</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency>
+            <Amplitude>
+              <Value>0.012064985</Value>
+              <Visualization>Device only</Visualization>
+            </Amplitude>
+            <Dephase>
+              <Value>273.600006</Value>
+              <Visualization>Device only</Visualization>
+            </Dephase>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleLfoModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>+</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Linear</Scaling>
+            <From>
+              <Value>0.0726470947</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.254980236</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Pitch</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Log Slow</Scaling>
+            <From>
+              <Value>0.523200035</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.504999995</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.167140529</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleOperandModulationDevice type="SampleOperandModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Pitch</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Value>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Value>
+          </SampleOperandModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Cutoff</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Log Fast</Scaling>
+            <From>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.529999912</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.70294106</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Cutoff</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Log Fast</Scaling>
+            <From>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.238529384</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.625</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleAhdsrModulationDevice type="SampleAhdsrModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Cutoff</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Attack>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Hold>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Hold>
+            <Decay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Decay>
+            <Sustain>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Sustain>
+            <Release>
+              <Value>0.148000121</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+          </SampleAhdsrModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Resonance</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Exp Slow</Scaling>
+            <From>
+              <Value>0.138049603</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.510000229</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleAhdsrModulationDevice type="SampleAhdsrModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Attack>
+              <Value>0.0199999996</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Hold>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Hold>
+            <Decay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Decay>
+            <Sustain>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Sustain>
+            <Release>
+              <Value>0.15333347</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+          </SampleAhdsrModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Volume</Target>
+            <Operator>*</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Log Slow</Scaling>
+            <From>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.211966872</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.632132471</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+          <SampleLfoModulationDevice type="SampleLfoModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Panning</Target>
+            <Operator>+</Operator>
+            <Bipolar>true</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Mode>Random</Mode>
+            <Frequency>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency>
+            <Amplitude>
+              <Value>0.301785111</Value>
+              <Visualization>Device only</Visualization>
+            </Amplitude>
+            <Dephase>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Dephase>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleLfoModulationDevice>
+          <SampleFaderModulationDevice type="SampleFaderModulationDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Target>Drive</Target>
+            <Operator>+</Operator>
+            <Bipolar>false</Bipolar>
+            <TempoSynced>false</TempoSynced>
+            <Scaling>Log Slow</Scaling>
+            <From>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </From>
+            <To>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </To>
+            <Duration>
+              <Value>0.687160194</Value>
+              <Visualization>Device only</Visualization>
+            </Duration>
+            <Delay>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+          </SampleFaderModulationDevice>
+        </Devices>
+        <Name>glass</Name>
+        <FilterType>3</FilterType>
+        <FilterBankVersion>3</FilterBankVersion>
+      </ModulationSet>
+    </ModulationSets>
+    <SelectedModulationSetIndex>0</SelectedModulationSetIndex>
+    <DeviceChains>
+      <DeviceChain>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Devices>
+          <SampleMixerDevice type="SampleMixerDevice">
+            <CustomDeviceName>Mixer</CustomDeviceName>
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Panning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Volume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <PostPanning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </PostPanning>
+            <PostVolume>
+              <Value>0.868080497</Value>
+              <Visualization>Device only</Visualization>
+            </PostVolume>
+          </SampleMixerDevice>
+          <GainerDevice type="GainerDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Volume>
+              <Value>0.516391039</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </Volume>
+            <Panning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <LPhaseInvert>false</LPhaseInvert>
+            <RPhaseInvert>false</RPhaseInvert>
+            <SmoothParameterChanges>true</SmoothParameterChanges>
+          </GainerDevice>
+          <SendDevice type="SendDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <SendAmount>
+              <Value>1.0</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </SendAmount>
+            <SendPan>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </SendPan>
+            <DestSendTrack>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </DestSendTrack>
+            <MuteSource>false</MuteSource>
+            <SmoothParameterChanges>true</SmoothParameterChanges>
+            <ApplyPostVolume>true</ApplyPostVolume>
+          </SendDevice>
+          <MixerEqDevice type="MixerEqDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <InputMode>L+R</InputMode>
+            <MaxVisualizedGain>20</MaxVisualizedGain>
+            <LowGain>
+              <Value>-4.85114765</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </LowGain>
+            <MidGain>
+              <Value>-8.72262383</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </MidGain>
+            <MidFreq>
+              <Value>0.600000024</Value>
+              <Visualization>Device only</Visualization>
+            </MidFreq>
+            <MidQ>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </MidQ>
+            <HiGain>
+              <Value>-4.43212986</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </HiGain>
+          </MixerEqDevice>
+          <ReverbDevice type="ReverbDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Send>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Send>
+            <RoomSize>
+              <Value>0.921090961</Value>
+              <Visualization>Device only</Visualization>
+            </RoomSize>
+            <Width>
+              <Value>0.759999931</Value>
+              <Visualization>Device only</Visualization>
+            </Width>
+            <Damp>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Damp>
+            <DryMix>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </DryMix>
+          </ReverbDevice>
+          <MixerEqDevice type="MixerEqDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <InputMode>L+R</InputMode>
+            <MaxVisualizedGain>20</MaxVisualizedGain>
+            <LowGain>
+              <Value>-11.1551428</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </LowGain>
+            <MidGain>
+              <Value>0.0</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </MidGain>
+            <MidFreq>
+              <Value>0.600000024</Value>
+              <Visualization>Device only</Visualization>
+            </MidFreq>
+            <MidQ>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </MidQ>
+            <HiGain>
+              <Value>0.0</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </HiGain>
+          </MixerEqDevice>
+        </Devices>
+        <Name>glass</Name>
+        <RoutingIndex>-1</RoutingIndex>
+      </DeviceChain>
+      <DeviceChain>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Devices>
+          <SampleMixerDevice type="SampleMixerDevice">
+            <CustomDeviceName>Mixer</CustomDeviceName>
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>false</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Panning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Volume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <PostPanning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </PostPanning>
+            <PostVolume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </PostVolume>
+          </SampleMixerDevice>
+          <GainerDevice type="GainerDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Volume>
+              <Value>1.11138117</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </Volume>
+            <Panning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <LPhaseInvert>false</LPhaseInvert>
+            <RPhaseInvert>false</RPhaseInvert>
+            <SmoothParameterChanges>true</SmoothParameterChanges>
+          </GainerDevice>
+          <MixerEqDevice type="MixerEqDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <InputMode>L+R</InputMode>
+            <MaxVisualizedGain>20</MaxVisualizedGain>
+            <LowGain>
+              <Value>13.1040039</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </LowGain>
+            <MidGain>
+              <Value>14.1816378</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </MidGain>
+            <MidFreq>
+              <Value>0.600000024</Value>
+              <Visualization>Device only</Visualization>
+            </MidFreq>
+            <MidQ>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </MidQ>
+            <HiGain>
+              <Value>0.0</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </HiGain>
+          </MixerEqDevice>
+          <BusCompressorDevice type="BusCompressorDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Threshold>
+              <Value>-30.8655777</Value>
+              <Visualization>Device only</Visualization>
+            </Threshold>
+            <Ratio>
+              <Value>0.353934467</Value>
+              <Visualization>Device only</Visualization>
+            </Ratio>
+            <Attack>
+              <Value>0.206721321</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Release>
+              <Value>0.312459052</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+            <MakeUp>
+              <Value>0.0</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </MakeUp>
+            <Knee>
+              <Value>10</Value>
+              <Visualization>Device only</Visualization>
+            </Knee>
+          </BusCompressorDevice>
+          <MixerEqDevice type="MixerEqDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <InputMode>L+R</InputMode>
+            <MaxVisualizedGain>20</MaxVisualizedGain>
+            <LowGain>
+              <Value>-11.3411417</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </LowGain>
+            <MidGain>
+              <Value>0.0</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </MidGain>
+            <MidFreq>
+              <Value>0.600000024</Value>
+              <Visualization>Device only</Visualization>
+            </MidFreq>
+            <MidQ>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </MidQ>
+            <HiGain>
+              <Value>0.0</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </HiGain>
+          </MixerEqDevice>
+        </Devices>
+        <Name>glass+sine</Name>
+        <RoutingIndex>-1</RoutingIndex>
+      </DeviceChain>
+    </DeviceChains>
+    <SelectedDeviceChainIndex>1</SelectedDeviceChainIndex>
+    <KeyzoneOverlappingMode>Play All</KeyzoneOverlappingMode>
+    <SplitMap>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+    </SplitMap>
+  </SampleGenerator>
+  <PluginGenerator>
+    <Channel>0</Channel>
+    <Transpose>0</Transpose>
+    <Volume>1.0</Volume>
+    <OutputRoutings>
+      <OutputRouting>
+        <Enabled>true</Enabled>
+        <Name>Bus #01</Name>
+        <MixMode>L+R</MixMode>
+        <AutoAssign>true</AutoAssign>
+        <AssignedTrack>-1</AssignedTrack>
+      </OutputRouting>
+    </OutputRoutings>
+    <MidiOutputRoutingIndex>-1</MidiOutputRoutingIndex>
+    <AutoSuspend>true</AutoSuspend>
+    <AliasInstrumentIndex>-1</AliasInstrumentIndex>
+    <AliasFxIndices>-1,-1</AliasFxIndices>
+  </PluginGenerator>
+  <MidiGenerator>
+    <Channel>0</Channel>
+    <InstrumentType>ext. MIDI</InstrumentType>
+    <Delay>0</Delay>
+    <Program>-1</Program>
+    <Bank>-1</Bank>
+    <BankOrder>MSB, LSB</BankOrder>
+    <Transpose>0</Transpose>
+    <Length>8000</Length>
+  </MidiGenerator>
+  <ActiveGeneratorTab>Samples</ActiveGeneratorTab>
+</RenoiseInstrument>

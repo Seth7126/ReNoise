@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseInstrument doc_version="31">
+  <Name>Effects - Key Tracker</Name>
+  <CopyIntoNewSampleNameCounter>0</CopyIntoNewSampleNameCounter>
+  <CopyIntoNewInstrumentNameCounter>0</CopyIntoNewInstrumentNameCounter>
+  <GlobalProperties>
+    <Macro0>
+      <Value>100</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Dry/Wet</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>SampleDSP</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>5</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>59.2000237</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Inertia</Name>
+      <Mappings>
+        <Mapping>
+          <DestChainType>SampleDSP</DestChainType>
+          <DestChainIndex>0</DestChainIndex>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>4</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>50</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Macro 3</Name>
+    </Macro2>
+    <Macro3>
+      <Value>50</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Macro 4</Name>
+    </Macro3>
+    <Macro4>
+      <Value>50</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Macro 5</Name>
+    </Macro4>
+    <Macro5>
+      <Value>50</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Macro 6</Name>
+    </Macro5>
+    <Macro6>
+      <Value>50</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Macro 7</Name>
+    </Macro6>
+    <Macro7>
+      <Value>50</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Macro 8</Name>
+    </Macro7>
+    <PitchbendMacro>
+      <Value>50</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Pitchbend</Name>
+    </PitchbendMacro>
+    <ModulationWheelMacro>
+      <Value>0.0</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Modulation</Name>
+    </ModulationWheelMacro>
+    <ChannelPressureMacro>
+      <Value>0.0</Value>
+      <Visualization>Device only</Visualization>
+      <Name>Channel Pressure</Name>
+    </ChannelPressureMacro>
+    <MacrosVisible>true</MacrosVisible>
+    <Volume>1.0</Volume>
+    <Transpose>0</Transpose>
+    <Scale>None</Scale>
+    <ScaleKey>C</ScaleKey>
+    <Quantize>None</Quantize>
+    <Monophonic>false</Monophonic>
+    <MonophonicGlide>0</MonophonicGlide>
+    <Comments>
+      <Comment>A demonstration of the Key Tracking device (DSP)</Comment>
+      <Comment/>
+      <Comment>The phrase is a arpeggio in D minor. Each note is picked up by a Key-Tracking device in the DSP Effect section, which in turn is set to control the tuning of a Comb filter</Comment>
+      <Comment/>
+      <Comment>Note that since DSP Effects are processed monophonically, this preset will only respond to the most recent note received. </Comment>
+    </Comments>
+    <ShowCommentsAfterLoading>true</ShowCommentsAfterLoading>
+    <BeatsPerMin>130</BeatsPerMin>
+  </GlobalProperties>
+  <MidiInputProperties>
+    <Channel>-1</Channel>
+    <NoteRangeStart>0</NoteRangeStart>
+    <NoteRangeEnd>119</NoteRangeEnd>
+    <AssignedTrack>-1</AssignedTrack>
+  </MidiInputProperties>
+  <PhraseGenerator>
+    <PlaybackSync>false</PlaybackSync>
+    <PlaybackMode>Selective</PlaybackMode>
+    <SelectedPhraseIndex>0</SelectedPhraseIndex>
+    <Phrases>
+      <Phrase>
+        <SelectedPresetName>Arp D minor (variation)</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>false</SelectedPresetIsModified>
+        <Lines>
+          <Line index="0">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>F-6</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="1">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="2">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-3</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A-5</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="3">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="4">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="5">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A-5</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="6">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-3</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-5</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="7">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="8">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-3</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A-5</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="9">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="10">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="11">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-2</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="12">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>F-5</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="13">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="14">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-2</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A-4</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="15">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="16">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="17">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Note>A-4</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="18">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-2</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>F-4</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="19">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="20">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-2</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Note>A-4</Note>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="21">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="22">
+            <NoteColumns>
+              <NoteColumn/>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="23">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-1</Note>
+              </NoteColumn>
+              <NoteColumn>
+                <Volume>30</Volume>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="24">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-4</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="26">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-3</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="29">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-3</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="30">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-3</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="32">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>OFF</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="33">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D-6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="34">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="35">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="36">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D-6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="37">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="38">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="39">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D-7</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="40">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="41">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="42">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D-7</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="43">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-7</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="44">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-6</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="45">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>D-7</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="46">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>F-7</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+          <Line index="47">
+            <NoteColumns>
+              <NoteColumn>
+                <Note>A-7</Note>
+              </NoteColumn>
+            </NoteColumns>
+            <EffectColumns>
+              <EffectColumn/>
+            </EffectColumns>
+          </Line>
+        </Lines>
+        <Name>Arp D minor (variation)</Name>
+        <LinesPerBeat>4</LinesPerBeat>
+        <ShuffleIsActive>false</ShuffleIsActive>
+        <ShuffleAmounts>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+          <ShuffleAmount>0</ShuffleAmount>
+        </ShuffleAmounts>
+        <NumberOfLines>24</NumberOfLines>
+        <VisibleNoteColumns>2</VisibleNoteColumns>
+        <VisibleEffectColumns>1</VisibleEffectColumns>
+        <NoteColumnNames>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+          <NoteColumnName/>
+        </NoteColumnNames>
+        <NoteColumnStates>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+          <NoteColumnState>Active</NoteColumnState>
+        </NoteColumnStates>
+        <InstrumentColumnIsVisible>false</InstrumentColumnIsVisible>
+        <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+        <PanningColumnIsVisible>false</PanningColumnIsVisible>
+        <DelayColumnIsVisible>false</DelayColumnIsVisible>
+        <SampleEffectsColumnIsVisible>true</SampleEffectsColumnIsVisible>
+        <TriggerOptions>
+          <BaseNote>48</BaseNote>
+          <KeyTracking>Transpose</KeyTracking>
+          <Loop>true</Loop>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>24</LoopEnd>
+        </TriggerOptions>
+      </Phrase>
+    </Phrases>
+    <PhraseMap>
+      <SelectedMappingIndex>-1</SelectedMappingIndex>
+    </PhraseMap>
+  </PhraseGenerator>
+  <SampleGenerator>
+    <Samples>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_C-2</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1978.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1467</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>24</BaseNote>
+          <NoteStart>0</NoteStart>
+          <NoteEnd>29</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1467</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_F#2</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1979.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>1038</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>30</BaseNote>
+          <NoteStart>30</NoteStart>
+          <NoteEnd>35</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>1038</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_C-3</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1980.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>734</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>36</BaseNote>
+          <NoteStart>36</NoteStart>
+          <NoteEnd>41</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>734</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_F#3</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1981.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>518</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>42</BaseNote>
+          <NoteStart>42</NoteStart>
+          <NoteEnd>47</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>518</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_C-4</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1982.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>367</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>48</BaseNote>
+          <NoteStart>48</NoteStart>
+          <NoteEnd>53</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>367</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_F#4</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1983.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>260</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>54</BaseNote>
+          <NoteStart>54</NoteStart>
+          <NoteEnd>59</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>260</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_C-5</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1984.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>367</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>60</BaseNote>
+          <NoteStart>60</NoteStart>
+          <NoteEnd>65</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>367</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_F#5</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1985.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>260</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>66</BaseNote>
+          <NoteStart>66</NoteStart>
+          <NoteEnd>71</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>260</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_C-6</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1986.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>367</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>72</BaseNote>
+          <NoteStart>72</NoteStart>
+          <NoteEnd>77</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>367</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_F#6</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1987.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>454</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>78</BaseNote>
+          <NoteStart>78</NoteStart>
+          <NoteEnd>83</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>454</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_C-7</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1988.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>321</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>84</BaseNote>
+          <NoteStart>84</NoteStart>
+          <NoteEnd>89</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>321</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_F#7</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1989.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>454</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>90</BaseNote>
+          <NoteStart>90</NoteStart>
+          <NoteEnd>95</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>454</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+      <Sample>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Name>ZOctaveSaw2_C-8</Name>
+        <FileName>//Temp:/var/folders/CG/CG99UkllGCW7Kav3ci9nqU+++TI/-Tmp-/Renoise Redux-0-29830/Renoise Redux_TmpPath-0-0/TempSampleRef1990.flac</FileName>
+        <FileModificationDate>2015-05-28</FileModificationDate>
+        <FileModificationDayTime>23:00:44</FileModificationDayTime>
+        <Volume>0.530334413</Volume>
+        <Panning>0.5</Panning>
+        <Transpose>0</Transpose>
+        <Finetune>0</Finetune>
+        <BeatSyncIsActive>false</BeatSyncIsActive>
+        <BeatSyncLines>16</BeatSyncLines>
+        <OneShotTrigger>false</OneShotTrigger>
+        <NewNoteAction>NoteOff</NewNoteAction>
+        <Oversample>false</Oversample>
+        <InterpolationMode>Cubic</InterpolationMode>
+        <AutoSeek>false</AutoSeek>
+        <AutoFade>false</AutoFade>
+        <LoopMode>Forward</LoopMode>
+        <LoopRelease>false</LoopRelease>
+        <LoopStart>0</LoopStart>
+        <LoopEnd>344</LoopEnd>
+        <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+        <IsAlias>false</IsAlias>
+        <MuteGroupIndex>-1</MuteGroupIndex>
+        <ModulationSetIndex>0</ModulationSetIndex>
+        <DeviceChainIndex>0</DeviceChainIndex>
+        <Mapping>
+          <Layer>Note-On Layer</Layer>
+          <BaseNote>96</BaseNote>
+          <NoteStart>96</NoteStart>
+          <NoteEnd>119</NoteEnd>
+          <MapKeyToPitch>true</MapKeyToPitch>
+          <VelocityStart>0</VelocityStart>
+          <VelocityEnd>127</VelocityEnd>
+          <MapVelocityToVolume>true</MapVelocityToVolume>
+        </Mapping>
+        <DisplayStart>0</DisplayStart>
+        <DisplayLength>344</DisplayLength>
+        <SelectionRangeStart>-1</SelectionRangeStart>
+        <SelectionRangeEnd>-1</SelectionRangeEnd>
+        <SelectedChannel>L+R</SelectedChannel>
+        <VZoomFactor>1.0</VZoomFactor>
+      </Sample>
+    </Samples>
+    <SelectedSampleIndex>12</SelectedSampleIndex>
+    <ModulationSets>
+      <ModulationSet>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Devices>
+          <SampleMixerModulationDevice type="SampleMixerModulationDevice">
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Volume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <Panning>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Pitch>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Pitch>
+            <PitchModulationRange>12</PitchModulationRange>
+            <Cutoff>
+              <Value>64</Value>
+              <Visualization>Device only</Visualization>
+            </Cutoff>
+            <Resonance>
+              <Value>64</Value>
+              <Visualization>Device only</Visualization>
+            </Resonance>
+            <Drive>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Drive>
+          </SampleMixerModulationDevice>
+        </Devices>
+        <Name>Set 01</Name>
+        <FilterType>0</FilterType>
+        <FilterBankVersion>3</FilterBankVersion>
+      </ModulationSet>
+    </ModulationSets>
+    <SelectedModulationSetIndex>0</SelectedModulationSetIndex>
+    <DeviceChains>
+      <DeviceChain>
+        <SelectedPresetName>Init</SelectedPresetName>
+        <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+        <SelectedPresetIsModified>true</SelectedPresetIsModified>
+        <Devices>
+          <SampleMixerDevice type="SampleMixerDevice">
+            <CustomDeviceName>Mixer</CustomDeviceName>
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Panning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Volume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <PostPanning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </PostPanning>
+            <PostVolume>
+              <Value>0.287315577</Value>
+              <Visualization>Device only</Visualization>
+            </PostVolume>
+          </SampleMixerDevice>
+          <KeyTrackingDevice type="KeyTrackingDevice">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <SrcInstrument>-1</SrcInstrument>
+            <DestScaling>Linear</DestScaling>
+            <KeyTrackingMode>Soft</KeyTrackingMode>
+            <KeyTrackingMin>0</KeyTrackingMin>
+            <KeyTrackingMax>119</KeyTrackingMax>
+            <DestTrack>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </DestTrack>
+            <DestEffect>
+              <Value>2</Value>
+              <Visualization>Device only</Visualization>
+            </DestEffect>
+            <DestParameter>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </DestParameter>
+            <DestMin>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </DestMin>
+            <DestMax>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </DestMax>
+          </KeyTrackingDevice>
+          <Comb2Device type="Comb2Device">
+            <IsMaximized>true</IsMaximized>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsActive>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </IsActive>
+            <Note>
+              <Value>57.0000038</Value>
+              <Visualization>Device only</Visualization>
+            </Note>
+            <Transpose>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Transpose>
+            <Feedback>
+              <Value>0.831999838</Value>
+              <Visualization>Device only</Visualization>
+            </Feedback>
+            <Inertia>
+              <Value>0.00927490648</Value>
+              <Visualization>Device only</Visualization>
+            </Inertia>
+            <DryWet>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </DryWet>
+          </Comb2Device>
+        </Devices>
+        <Name>FX Chain 01</Name>
+        <RoutingIndex>-1</RoutingIndex>
+      </DeviceChain>
+    </DeviceChains>
+    <SelectedDeviceChainIndex>0</SelectedDeviceChainIndex>
+    <KeyzoneOverlappingMode>Play All</KeyzoneOverlappingMode>
+    <SplitMap>
+      <SelectedPresetName>Z - Basic - ZOctaveSaw2</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+    </SplitMap>
+  </SampleGenerator>
+  <PluginGenerator>
+    <Channel>0</Channel>
+    <Transpose>0</Transpose>
+    <Volume>1.0</Volume>
+    <OutputRoutings>
+      <OutputRouting>
+        <Enabled>true</Enabled>
+        <Name>Bus #01</Name>
+        <MixMode>L+R</MixMode>
+        <AutoAssign>true</AutoAssign>
+        <AssignedTrack>-1</AssignedTrack>
+      </OutputRouting>
+    </OutputRoutings>
+    <AutoSuspend>true</AutoSuspend>
+    <AliasInstrumentIndex>-1</AliasInstrumentIndex>
+    <AliasFxIndices>-1,-1</AliasFxIndices>
+  </PluginGenerator>
+  <MidiGenerator>
+    <Channel>0</Channel>
+    <InstrumentType>ext. MIDI</InstrumentType>
+    <Delay>0</Delay>
+    <Program>-1</Program>
+    <Bank>-1</Bank>
+    <Transpose>0</Transpose>
+    <Length>8000</Length>
+  </MidiGenerator>
+  <ActiveGeneratorTab>Samples</ActiveGeneratorTab>
+</RenoiseInstrument>
