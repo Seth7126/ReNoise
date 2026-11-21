@@ -1,0 +1,2459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseSong doc_version="37">
+  <GlobalSongData>
+    <Octave>5</Octave>
+    <LoopCoeff>4</LoopCoeff>
+    <BeatsPerMin>128</BeatsPerMin>
+    <LinesPerBeat>4</LinesPerBeat>
+    <TicksPerLine>12</TicksPerLine>
+    <SignatureNumerator>4</SignatureNumerator>
+    <SignatureDenominator>4</SignatureDenominator>
+    <ShuffleIsActive>false</ShuffleIsActive>
+    <ShuffleAmounts>
+      <ShuffleAmount>0</ShuffleAmount>
+      <ShuffleAmount>0</ShuffleAmount>
+      <ShuffleAmount>0</ShuffleAmount>
+      <ShuffleAmount>0</ShuffleAmount>
+    </ShuffleAmounts>
+    <SongName>Cross-Track Routing</SongName>
+    <Artist>Beatslaughter</Artist>
+    <SongComments>
+      <SongComment>This short tutorial song demonstrates the possibilities of cross-track routing for injecting life into otherwise plain sounds.</SongComment>
+      <SongComment/>
+      <SongComment>The first pattern plays the drumloop and bass sounds in their standard, unaltered forms.</SongComment>
+      <SongComment/>
+      <SongComment>In the second pattern you can hear how the bassline is modulated by the drumloop's amplitude. This is done by linking the first track's Signal Follower to the second track's Hydra Device (which in turn is also linked to several other parameters). Notice that the Gainer appears after the Signal Follower, so that the drumloop is still used for modulation even though it falls silent afterwards.</SongComment>
+      <SongComment/>
+      <SongComment>A similiar effect could have been achieved by linking the Signal Follower to a single Filter. But what this tutorial shows is that it is possible to modulate numerous parameters using a single source, without the need to create multiple automations.</SongComment>
+      <SongComment/>
+      <SongComment>The third pattern un-mutes the drumloop, allowing you to hear exactly how its rhythm is affecting the bassline as they play side by side.</SongComment>
+      <SongComment/>
+      <SongComment>Note: The Signal Follower cannot affect devices that appear on tracks to the left of its own host track. It is also unable to control effects on the same track as itself, if that device appears before it in the DSP chain. Such tracks and effects will show in the "Dest." box with the suffix: "(N/A)" (i.e. Not Available). If you want to affect a track or device that currently shows as "(N/A)", then simply reorder the tracks or effects so that the Signal Follower appears before (to the left of) the desired parameter.</SongComment>
+    </SongComments>
+    <ShowSongCommentsAfterLoading>true</ShowSongCommentsAfterLoading>
+    <ShowUsedAutomationsOnly>false</ShowUsedAutomationsOnly>
+    <SampleOffsetCompatibilityMode>false</SampleOffsetCompatibilityMode>
+    <PitchEffectsCompatibilityMode>false</PitchEffectsCompatibilityMode>
+    <GlobalTrackHeadroom>0.5</GlobalTrackHeadroom>
+    <PlaybackEngineVersion>4</PlaybackEngineVersion>
+    <RenderSelectionNameCounter>0</RenderSelectionNameCounter>
+    <RecordSampleNameCounter>0</RecordSampleNameCounter>
+    <NewSampleNameCounter>0</NewSampleNameCounter>
+  </GlobalSongData>
+  <RecordManager>
+    <LinkedTrackIndex>-1</LinkedTrackIndex>
+  </RecordManager>
+  <Instruments>
+    <Instrument>
+      <ActiveGeneratorTab>Samples</ActiveGeneratorTab>
+      <Name>Drumloop</Name>
+      <CopyIntoNewSampleNameCounter>0</CopyIntoNewSampleNameCounter>
+      <CopyIntoNewInstrumentNameCounter>0</CopyIntoNewInstrumentNameCounter>
+      <Samples>
+        <Sample>
+          <Volume>1.0</Volume>
+          <Panning>0.5</Panning>
+          <BaseNote>48</BaseNote>
+          <Transpose>0</Transpose>
+          <Finetune>0</Finetune>
+          <AutoSeek>false</AutoSeek>
+          <AutoFade>false</AutoFade>
+          <BeatSyncIsActive>true</BeatSyncIsActive>
+          <BeatSyncLines>32</BeatSyncLines>
+          <NewNoteAction>Cut</NewNoteAction>
+          <InterpolationMode>Cubic</InterpolationMode>
+          <LoopMode>Forward</LoopMode>
+          <LoopRelease>false</LoopRelease>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>183322</LoopEnd>
+          <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+          <IsAlias>false</IsAlias>
+          <DisplayStart>0</DisplayStart>
+          <DisplayLength>183322</DisplayLength>
+          <SelectionRangeStart>-1</SelectionRangeStart>
+          <SelectionRangeEnd>-1</SelectionRangeEnd>
+          <SelectedChannel>L+R</SelectedChannel>
+          <VZoomFactor>1.0</VZoomFactor>
+        </Sample>
+      </Samples>
+      <SampleSplitMap>
+        <NoteOnMappings>
+          <NoteOnMapping>
+            <SampleIndex>0</SampleIndex>
+            <UseEnvelopes>true</UseEnvelopes>
+            <MapVelocityToVolume>true</MapVelocityToVolume>
+            <BaseNote>48</BaseNote>
+            <NoteStart>0</NoteStart>
+            <NoteEnd>119</NoteEnd>
+            <VelocityStart>0</VelocityStart>
+            <VelocityEnd>127</VelocityEnd>
+          </NoteOnMapping>
+        </NoteOnMappings>
+      </SampleSplitMap>
+      <SampleEnvelopes>
+        <Volume>
+          <IsActive>false</IsActive>
+          <SustainIsActive>false</SustainIsActive>
+          <SustainPos>0</SustainPos>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>71</LoopEnd>
+          <LoopMode>Off</LoopMode>
+          <Decay>128</Decay>
+          <Nodes>
+            <PlayMode>Curve</PlayMode>
+            <Length>72</Length>
+            <ValueQuantum>0.0</ValueQuantum>
+            <Polarity>Unipolar</Polarity>
+            <Points>
+              <Point>0,0.99000001</Point>
+              <Point>10,0.400000006</Point>
+              <Point>71,0.0</Point>
+            </Points>
+          </Nodes>
+          <Lfo1>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo1>
+          <Lfo2>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo2>
+        </Volume>
+        <Pan>
+          <IsActive>false</IsActive>
+          <SustainIsActive>false</SustainIsActive>
+          <SustainPos>0</SustainPos>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>71</LoopEnd>
+          <LoopMode>Off</LoopMode>
+          <Decay>128</Decay>
+          <Nodes>
+            <PlayMode>Curve</PlayMode>
+            <Length>72</Length>
+            <ValueQuantum>0.0</ValueQuantum>
+            <Polarity>Bipolar</Polarity>
+            <Points>
+              <Point>0,0.5</Point>
+              <Point>10,0.600000024</Point>
+              <Point>20,0.400000006</Point>
+              <Point>30,0.699999988</Point>
+              <Point>40,0.300000012</Point>
+              <Point>60,0.400000006</Point>
+              <Point>71,0.5</Point>
+            </Points>
+          </Nodes>
+          <Lfo1>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo1>
+          <Lfo2>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo2>
+        </Pan>
+        <Pitch>
+          <IsActive>false</IsActive>
+          <SustainIsActive>false</SustainIsActive>
+          <SustainPos>0</SustainPos>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>71</LoopEnd>
+          <LoopMode>Off</LoopMode>
+          <Decay>128</Decay>
+          <Nodes>
+            <PlayMode>Curve</PlayMode>
+            <Length>72</Length>
+            <ValueQuantum>0.0</ValueQuantum>
+            <Polarity>Bipolar</Polarity>
+            <Points>
+              <Point>0,0.699999988</Point>
+              <Point>50,0.200000003</Point>
+              <Point>71,0.0500000007</Point>
+            </Points>
+          </Nodes>
+          <Lfo1>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo1>
+          <Lfo2>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo2>
+        </Pitch>
+        <FilterType>3</FilterType>
+        <Cutoff>
+          <IsActive>false</IsActive>
+          <SustainIsActive>false</SustainIsActive>
+          <SustainPos>0</SustainPos>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>71</LoopEnd>
+          <LoopMode>Off</LoopMode>
+          <Decay>128</Decay>
+          <Nodes>
+            <PlayMode>Curve</PlayMode>
+            <Length>72</Length>
+            <ValueQuantum>0.0</ValueQuantum>
+            <Polarity>Unipolar</Polarity>
+            <Points>
+              <Point>0,0.5</Point>
+              <Point>40,0.800000012</Point>
+              <Point>60,0.200000003</Point>
+              <Point>71,0.5</Point>
+            </Points>
+          </Nodes>
+          <Lfo>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo>
+          <AutoAmp>
+            <IsActive>false</IsActive>
+            <Attack>100</Attack>
+            <Release>70</Release>
+            <Amount>60</Amount>
+          </AutoAmp>
+        </Cutoff>
+        <Resonance>
+          <IsActive>false</IsActive>
+          <SustainIsActive>false</SustainIsActive>
+          <SustainPos>0</SustainPos>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>71</LoopEnd>
+          <LoopMode>Off</LoopMode>
+          <Decay>128</Decay>
+          <Nodes>
+            <PlayMode>Curve</PlayMode>
+            <Length>72</Length>
+            <ValueQuantum>0.0</ValueQuantum>
+            <Polarity>Unipolar</Polarity>
+            <Points>
+              <Point>0,0.5</Point>
+              <Point>40,0.200000003</Point>
+              <Point>60,0.600000024</Point>
+              <Point>71,0.5</Point>
+            </Points>
+          </Nodes>
+          <Lfo>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo>
+          <AutoAmp>
+            <IsActive>false</IsActive>
+            <Attack>100</Attack>
+            <Release>70</Release>
+            <Amount>60</Amount>
+          </AutoAmp>
+        </Resonance>
+      </SampleEnvelopes>
+      <PluginProperties>
+        <Channel>0</Channel>
+        <Transpose>0</Transpose>
+        <Volume>1.0</Volume>
+        <OutputRoutings>
+          <OutputRouting>
+            <Enabled>true</Enabled>
+            <Name>Bus #01</Name>
+            <MixMode>L+R</MixMode>
+            <AutoAssign>true</AutoAssign>
+            <AssignedTrack>-1</AssignedTrack>
+          </OutputRouting>
+        </OutputRoutings>
+        <AutoSuspend>true</AutoSuspend>
+        <AliasInstrumentIndex>-1</AliasInstrumentIndex>
+        <AliasFxIndices>-1,-1</AliasFxIndices>
+      </PluginProperties>
+      <MidiInputProperties>
+        <IsActive>false</IsActive>
+        <Channel>-1</Channel>
+        <AssignedTrack>-1</AssignedTrack>
+      </MidiInputProperties>
+      <MidiOutputProperties>
+        <IsActive>false</IsActive>
+        <Channel>0</Channel>
+        <InstrumentType>ext. MIDI</InstrumentType>
+        <Delay>0</Delay>
+        <Program>-1</Program>
+        <Bank>-1</Bank>
+        <Transpose>-12</Transpose>
+        <Length>8000</Length>
+      </MidiOutputProperties>
+    </Instrument>
+    <Instrument>
+      <ActiveGeneratorTab>Samples</ActiveGeneratorTab>
+      <Name>Bass</Name>
+      <CopyIntoNewSampleNameCounter>0</CopyIntoNewSampleNameCounter>
+      <CopyIntoNewInstrumentNameCounter>0</CopyIntoNewInstrumentNameCounter>
+      <Samples>
+        <Sample>
+          <Volume>1.0</Volume>
+          <Panning>0.5</Panning>
+          <BaseNote>60</BaseNote>
+          <Transpose>0</Transpose>
+          <Finetune>0</Finetune>
+          <AutoSeek>false</AutoSeek>
+          <AutoFade>false</AutoFade>
+          <BeatSyncIsActive>false</BeatSyncIsActive>
+          <BeatSyncLines>16</BeatSyncLines>
+          <NewNoteAction>Cut</NewNoteAction>
+          <InterpolationMode>Cubic</InterpolationMode>
+          <LoopMode>Forward</LoopMode>
+          <LoopRelease>false</LoopRelease>
+          <LoopStart>21146</LoopStart>
+          <LoopEnd>42289</LoopEnd>
+          <SingleSliceTriggerEnabled>true</SingleSliceTriggerEnabled>
+          <IsAlias>false</IsAlias>
+          <DisplayStart>0</DisplayStart>
+          <DisplayLength>42293</DisplayLength>
+          <SelectionRangeStart>-1</SelectionRangeStart>
+          <SelectionRangeEnd>-1</SelectionRangeEnd>
+          <SelectedChannel>L+R</SelectedChannel>
+          <VZoomFactor>1.0</VZoomFactor>
+        </Sample>
+      </Samples>
+      <SampleSplitMap>
+        <NoteOnMappings>
+          <NoteOnMapping>
+            <SampleIndex>0</SampleIndex>
+            <UseEnvelopes>true</UseEnvelopes>
+            <MapVelocityToVolume>true</MapVelocityToVolume>
+            <BaseNote>60</BaseNote>
+            <NoteStart>0</NoteStart>
+            <NoteEnd>119</NoteEnd>
+            <VelocityStart>0</VelocityStart>
+            <VelocityEnd>127</VelocityEnd>
+          </NoteOnMapping>
+        </NoteOnMappings>
+      </SampleSplitMap>
+      <SampleEnvelopes>
+        <Volume>
+          <IsActive>true</IsActive>
+          <SustainIsActive>true</SustainIsActive>
+          <SustainPos>0</SustainPos>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>71</LoopEnd>
+          <LoopMode>Off</LoopMode>
+          <Decay>128</Decay>
+          <Nodes>
+            <PlayMode>Curve</PlayMode>
+            <Length>72</Length>
+            <ValueQuantum>0.0</ValueQuantum>
+            <Polarity>Unipolar</Polarity>
+            <Points>
+              <Point>0,1.0</Point>
+              <Point>1,0.0</Point>
+            </Points>
+          </Nodes>
+          <Lfo1>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo1>
+          <Lfo2>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo2>
+        </Volume>
+        <Pan>
+          <IsActive>false</IsActive>
+          <SustainIsActive>false</SustainIsActive>
+          <SustainPos>0</SustainPos>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>71</LoopEnd>
+          <LoopMode>Off</LoopMode>
+          <Decay>128</Decay>
+          <Nodes>
+            <PlayMode>Curve</PlayMode>
+            <Length>72</Length>
+            <ValueQuantum>0.0</ValueQuantum>
+            <Polarity>Bipolar</Polarity>
+            <Points>
+              <Point>0,0.5</Point>
+              <Point>10,0.600000024</Point>
+              <Point>20,0.400000006</Point>
+              <Point>30,0.699999988</Point>
+              <Point>40,0.300000012</Point>
+              <Point>60,0.400000006</Point>
+              <Point>71,0.5</Point>
+            </Points>
+          </Nodes>
+          <Lfo1>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo1>
+          <Lfo2>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo2>
+        </Pan>
+        <Pitch>
+          <IsActive>false</IsActive>
+          <SustainIsActive>false</SustainIsActive>
+          <SustainPos>0</SustainPos>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>71</LoopEnd>
+          <LoopMode>Off</LoopMode>
+          <Decay>128</Decay>
+          <Nodes>
+            <PlayMode>Curve</PlayMode>
+            <Length>72</Length>
+            <ValueQuantum>0.0</ValueQuantum>
+            <Polarity>Bipolar</Polarity>
+            <Points>
+              <Point>0,0.699999988</Point>
+              <Point>50,0.200000003</Point>
+              <Point>71,0.0500000007</Point>
+            </Points>
+          </Nodes>
+          <Lfo1>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo1>
+          <Lfo2>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo2>
+        </Pitch>
+        <FilterType>3</FilterType>
+        <Cutoff>
+          <IsActive>false</IsActive>
+          <SustainIsActive>false</SustainIsActive>
+          <SustainPos>0</SustainPos>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>71</LoopEnd>
+          <LoopMode>Off</LoopMode>
+          <Decay>128</Decay>
+          <Nodes>
+            <PlayMode>Curve</PlayMode>
+            <Length>72</Length>
+            <ValueQuantum>0.0</ValueQuantum>
+            <Polarity>Unipolar</Polarity>
+            <Points>
+              <Point>0,0.5</Point>
+              <Point>40,0.800000012</Point>
+              <Point>60,0.200000003</Point>
+              <Point>71,0.5</Point>
+            </Points>
+          </Nodes>
+          <Lfo>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo>
+          <AutoAmp>
+            <IsActive>false</IsActive>
+            <Attack>100</Attack>
+            <Release>70</Release>
+            <Amount>60</Amount>
+          </AutoAmp>
+        </Cutoff>
+        <Resonance>
+          <IsActive>false</IsActive>
+          <SustainIsActive>false</SustainIsActive>
+          <SustainPos>0</SustainPos>
+          <LoopStart>0</LoopStart>
+          <LoopEnd>71</LoopEnd>
+          <LoopMode>Off</LoopMode>
+          <Decay>128</Decay>
+          <Nodes>
+            <PlayMode>Curve</PlayMode>
+            <Length>72</Length>
+            <ValueQuantum>0.0</ValueQuantum>
+            <Polarity>Unipolar</Polarity>
+            <Points>
+              <Point>0,0.5</Point>
+              <Point>40,0.200000003</Point>
+              <Point>60,0.600000024</Point>
+              <Point>71,0.5</Point>
+            </Points>
+          </Nodes>
+          <Lfo>
+            <Mode>Off</Mode>
+            <Frequency>3</Frequency>
+            <Amplitude>27</Amplitude>
+            <Dephase>0</Dephase>
+          </Lfo>
+          <AutoAmp>
+            <IsActive>false</IsActive>
+            <Attack>100</Attack>
+            <Release>70</Release>
+            <Amount>60</Amount>
+          </AutoAmp>
+        </Resonance>
+      </SampleEnvelopes>
+      <PluginProperties>
+        <Channel>0</Channel>
+        <Transpose>0</Transpose>
+        <Volume>1.0</Volume>
+        <OutputRoutings>
+          <OutputRouting>
+            <Enabled>true</Enabled>
+            <Name>Bus #01</Name>
+            <MixMode>L+R</MixMode>
+            <AutoAssign>true</AutoAssign>
+            <AssignedTrack>-1</AssignedTrack>
+          </OutputRouting>
+        </OutputRoutings>
+        <AutoSuspend>true</AutoSuspend>
+        <AliasInstrumentIndex>-1</AliasInstrumentIndex>
+        <AliasFxIndices>-1,-1</AliasFxIndices>
+      </PluginProperties>
+      <MidiInputProperties>
+        <IsActive>false</IsActive>
+        <Channel>-1</Channel>
+        <AssignedTrack>-1</AssignedTrack>
+      </MidiInputProperties>
+      <MidiOutputProperties>
+        <IsActive>false</IsActive>
+        <Channel>0</Channel>
+        <InstrumentType>ext. MIDI</InstrumentType>
+        <Delay>0</Delay>
+        <Program>-1</Program>
+        <Bank>-1</Bank>
+        <Transpose>-12</Transpose>
+        <Length>8000</Length>
+      </MidiOutputProperties>
+    </Instrument>
+  </Instruments>
+  <SelectedInstrumentIndex>0</SelectedInstrumentIndex>
+  <SelectedSampleIndex>0</SelectedSampleIndex>
+  <Tracks>
+    <SequencerTrack type="SequencerTrack">
+      <Name>Drumloop</Name>
+      <Color>178,80,80</Color>
+      <ColorBlend>0.0</ColorBlend>
+      <State>Active</State>
+      <Soloed>false</Soloed>
+      <NoteColumnStates>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+      </NoteColumnStates>
+      <NumberOfVisibleNoteColumns>1</NumberOfVisibleNoteColumns>
+      <NumberOfVisibleEffectColumns>1</NumberOfVisibleEffectColumns>
+      <VolumeColumnIsVisible>true</VolumeColumnIsVisible>
+      <PanningColumnIsVisible>false</PanningColumnIsVisible>
+      <DelayColumnIsVisible>false</DelayColumnIsVisible>
+      <TrackRouting>0</TrackRouting>
+      <GroupNestingLevel>0</GroupNestingLevel>
+      <TrackDelay>0.0</TrackDelay>
+      <Collapsed>false</Collapsed>
+      <Visible>true</Visible>
+      <FilterDevices>
+        <Devices>
+          <SequencerTrackDevice type="SequencerTrackDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>false</SelectedPresetIsModified>
+            <IsMaximized>true</IsMaximized>
+            <CustomDeviceName>Mixer</CustomDeviceName>
+            <Panning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Volume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <Surround>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Surround>
+            <PostPanning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </PostPanning>
+            <PostVolume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </PostVolume>
+            <SmoothParameterChanges>true</SmoothParameterChanges>
+          </SequencerTrackDevice>
+          <CabinetSimulatorDevice type="CabinetSimulatorDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>false</IsMaximized>
+            <Cabinet>
+              <Value>3</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </Cabinet>
+            <Routing>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Routing>
+            <Distortion>
+              <Value>0.219298244</Value>
+              <Visualization>Device only</Visualization>
+            </Distortion>
+            <Wet>
+              <Value>0.254385978</Value>
+              <Visualization>Device only</Visualization>
+            </Wet>
+            <Dry>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Dry>
+            <Stereo>true</Stereo>
+            <Gain0>
+              <Value>-0.799999893</Value>
+              <Visualization>Device only</Visualization>
+            </Gain0>
+            <Gain1>
+              <Value>-0.599996388</Value>
+              <Visualization>Device only</Visualization>
+            </Gain1>
+            <Gain2>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Gain2>
+            <Gain3>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Gain3>
+            <Gain4>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Gain4>
+            <Frequency0>100</Frequency0>
+            <Frequency1>1000</Frequency1>
+            <Frequency2>2000</Frequency2>
+            <Frequency3>4000</Frequency3>
+            <Frequency4>8000</Frequency4>
+            <BandWidth0>1.0</BandWidth0>
+            <BandWidth1>2</BandWidth1>
+            <BandWidth2>2</BandWidth2>
+            <BandWidth3>2</BandWidth3>
+            <BandWidth4>1.0</BandWidth4>
+          </CabinetSimulatorDevice>
+          <SignalFollowerDevice type="SignalFollowerDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>true</IsMaximized>
+            <DestTrack>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </DestTrack>
+            <DestEffect>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </DestEffect>
+            <DestParameter>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </DestParameter>
+            <DestMin>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </DestMin>
+            <DestMax>
+              <Value>0.75</Value>
+              <Visualization>Device only</Visualization>
+            </DestMax>
+            <DestOffset>
+              <Value>0.625</Value>
+              <Visualization>Device only</Visualization>
+            </DestOffset>
+            <Attack>
+              <Value>0.0100959996</Value>
+              <Visualization>Device only</Visualization>
+            </Attack>
+            <Release>
+              <Value>0.169993013</Value>
+              <Visualization>Device only</Visualization>
+            </Release>
+            <Sensitivity>
+              <Value>0.210000008</Value>
+              <Visualization>Device only</Visualization>
+            </Sensitivity>
+            <DestScaling>Exp Slow</DestScaling>
+            <LpFreq>
+              <Value>127</Value>
+              <Visualization>Device only</Visualization>
+            </LpFreq>
+            <HpFreq>
+              <Value>44.4501114</Value>
+              <Visualization>Device only</Visualization>
+            </HpFreq>
+            <InputMode>L+R</InputMode>
+            <LookAhead>0.0</LookAhead>
+            <ListenToInput>false</ListenToInput>
+          </SignalFollowerDevice>
+          <GainerDevice type="GainerDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>true</IsMaximized>
+            <Volume>
+              <Value>1.0</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </Volume>
+            <Panning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <LPhaseInvert>false</LPhaseInvert>
+            <RPhaseInvert>false</RPhaseInvert>
+            <SmoothParameterChanges>true</SmoothParameterChanges>
+          </GainerDevice>
+        </Devices>
+      </FilterDevices>
+    </SequencerTrack>
+    <SequencerTrack type="SequencerTrack">
+      <Name>Bass</Name>
+      <Color>178,128,80</Color>
+      <ColorBlend>0.0</ColorBlend>
+      <State>Active</State>
+      <Soloed>false</Soloed>
+      <NoteColumnStates>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+      </NoteColumnStates>
+      <NumberOfVisibleNoteColumns>1</NumberOfVisibleNoteColumns>
+      <NumberOfVisibleEffectColumns>1</NumberOfVisibleEffectColumns>
+      <VolumeColumnIsVisible>false</VolumeColumnIsVisible>
+      <PanningColumnIsVisible>false</PanningColumnIsVisible>
+      <DelayColumnIsVisible>false</DelayColumnIsVisible>
+      <TrackRouting>0</TrackRouting>
+      <GroupNestingLevel>0</GroupNestingLevel>
+      <TrackDelay>0.0</TrackDelay>
+      <Collapsed>false</Collapsed>
+      <Visible>true</Visible>
+      <FilterDevices>
+        <Devices>
+          <SequencerTrackDevice type="SequencerTrackDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>true</IsMaximized>
+            <CustomDeviceName>Mixer</CustomDeviceName>
+            <Panning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Volume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <Surround>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Surround>
+            <PostPanning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </PostPanning>
+            <PostVolume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </PostVolume>
+            <SmoothParameterChanges>true</SmoothParameterChanges>
+          </SequencerTrackDevice>
+          <HydraDevice type="HydraDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>true</IsMaximized>
+            <VisiblePages>1</VisiblePages>
+            <InputValue>
+              <Value>0.25</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </InputValue>
+            <Out1DestTrack>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out1DestTrack>
+            <Out1DestEffect>
+              <Value>4</Value>
+              <Visualization>Device only</Visualization>
+            </Out1DestEffect>
+            <Out1DestParameter>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out1DestParameter>
+            <Out1Min>
+              <Value>0.987755597</Value>
+              <Visualization>Device only</Visualization>
+            </Out1Min>
+            <Out1Max>
+              <Value>0.229478478</Value>
+              <Visualization>Device only</Visualization>
+            </Out1Max>
+            <Out1Scaling>Log Slow</Out1Scaling>
+            <Out2DestTrack>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out2DestTrack>
+            <Out2DestEffect>
+              <Value>4</Value>
+              <Visualization>Device only</Visualization>
+            </Out2DestEffect>
+            <Out2DestParameter>
+              <Value>2</Value>
+              <Visualization>Device only</Visualization>
+            </Out2DestParameter>
+            <Out2Min>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out2Min>
+            <Out2Max>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out2Max>
+            <Out2Scaling>Linear</Out2Scaling>
+            <Out3DestTrack>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out3DestTrack>
+            <Out3DestEffect>
+              <Value>3</Value>
+              <Visualization>Device only</Visualization>
+            </Out3DestEffect>
+            <Out3DestParameter>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out3DestParameter>
+            <Out3Min>
+              <Value>0.33151868</Value>
+              <Visualization>Device only</Visualization>
+            </Out3Min>
+            <Out3Max>
+              <Value>0.920181274</Value>
+              <Visualization>Device only</Visualization>
+            </Out3Max>
+            <Out3Scaling>Exp Slow</Out3Scaling>
+            <Out4DestTrack>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out4DestTrack>
+            <Out4DestEffect>
+              <Value>5</Value>
+              <Visualization>Device only</Visualization>
+            </Out4DestEffect>
+            <Out4DestParameter>
+              <Value>6</Value>
+              <Visualization>Device only</Visualization>
+            </Out4DestParameter>
+            <Out4Min>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out4Min>
+            <Out4Max>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out4Max>
+            <Out4Scaling>Linear</Out4Scaling>
+            <Out5DestTrack>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out5DestTrack>
+            <Out5DestEffect>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out5DestEffect>
+            <Out5DestParameter>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out5DestParameter>
+            <Out5Min>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out5Min>
+            <Out5Max>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out5Max>
+            <Out5Scaling>Linear</Out5Scaling>
+            <Out6DestTrack>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out6DestTrack>
+            <Out6DestEffect>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out6DestEffect>
+            <Out6DestParameter>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out6DestParameter>
+            <Out6Min>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out6Min>
+            <Out6Max>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out6Max>
+            <Out6Scaling>Linear</Out6Scaling>
+            <Out7DestTrack>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out7DestTrack>
+            <Out7DestEffect>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out7DestEffect>
+            <Out7DestParameter>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out7DestParameter>
+            <Out7Min>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out7Min>
+            <Out7Max>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out7Max>
+            <Out7Scaling>Linear</Out7Scaling>
+            <Out8DestTrack>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out8DestTrack>
+            <Out8DestEffect>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out8DestEffect>
+            <Out8DestParameter>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out8DestParameter>
+            <Out8Min>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out8Min>
+            <Out8Max>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out8Max>
+            <Out8Scaling>Linear</Out8Scaling>
+            <Out9DestTrack>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out9DestTrack>
+            <Out9DestEffect>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out9DestEffect>
+            <Out9DestParameter>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </Out9DestParameter>
+            <Out9Min>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out9Min>
+            <Out9Max>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Out9Max>
+            <Out9Scaling>Linear</Out9Scaling>
+          </HydraDevice>
+          <LfoDevice type="LfoDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>false</IsMaximized>
+            <DestTrack>
+              <Value>-1</Value>
+              <Visualization>Device only</Visualization>
+            </DestTrack>
+            <DestEffect>
+              <Value>3</Value>
+              <Visualization>Device only</Visualization>
+            </DestEffect>
+            <DestParameter>
+              <Value>4</Value>
+              <Visualization>Device only</Visualization>
+            </DestParameter>
+            <Amplitude>
+              <Value>0.75</Value>
+              <Visualization>Device only</Visualization>
+            </Amplitude>
+            <Offset>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Offset>
+            <Frequency>
+              <Value>1.87500012</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency>
+            <Type>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Type>
+            <CustomEnvelope>
+              <PlayMode>Linear</PlayMode>
+              <Length>64</Length>
+              <ValueQuantum>0.0</ValueQuantum>
+              <Polarity>Unipolar</Polarity>
+              <Points>
+                <Point>0,0.0</Point>
+                <Point>63,1.0</Point>
+              </Points>
+            </CustomEnvelope>
+            <CustomEnvelopeOneShot>false</CustomEnvelopeOneShot>
+            <UseAdjustedEnvelopeLength>false</UseAdjustedEnvelopeLength>
+          </LfoDevice>
+          <Filter3Device type="Filter3Device">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>true</IsMaximized>
+            <Type>
+              <Value>3</Value>
+              <Visualization>Device only</Visualization>
+            </Type>
+            <Frequency>
+              <Value>0.370762855</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </Frequency>
+            <Q>
+              <Value>3.67213106</Value>
+              <Visualization>Device only</Visualization>
+            </Q>
+            <Gain>
+              <Value>-60</Value>
+              <Visualization>Device only</Visualization>
+            </Gain>
+            <Inertia>
+              <Value>0.00317978859</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </Inertia>
+            <Model>Butterworth 4n</Model>
+          </Filter3Device>
+          <Filter3Device type="Filter3Device">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>true</IsMaximized>
+            <Type>
+              <Value>4</Value>
+              <Visualization>Device only</Visualization>
+            </Type>
+            <Frequency>
+              <Value>0.62498498</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </Frequency>
+            <Q>
+              <Value>10.5</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </Q>
+            <Gain>
+              <Value>-8.85245895</Value>
+              <Visualization>Device only</Visualization>
+            </Gain>
+            <Inertia>
+              <Value>0.00511219446</Value>
+              <Visualization>Device only</Visualization>
+            </Inertia>
+            <Model>24dB 4Pole</Model>
+          </Filter3Device>
+          <CabinetSimulatorDevice type="CabinetSimulatorDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>true</IsMaximized>
+            <Cabinet>
+              <Value>16</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </Cabinet>
+            <Routing>
+              <Value>3</Value>
+              <Visualization>Device only</Visualization>
+            </Routing>
+            <Distortion>
+              <Value>0.403508782</Value>
+              <Visualization>Device only</Visualization>
+            </Distortion>
+            <Wet>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Wet>
+            <Dry>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Dry>
+            <Stereo>false</Stereo>
+            <Gain0>
+              <Value>5.53846025</Value>
+              <Visualization>Device only</Visualization>
+            </Gain0>
+            <Gain1>
+              <Value>-5</Value>
+              <Visualization>Mixer and Device</Visualization>
+            </Gain1>
+            <Gain2>
+              <Value>-1.99999976</Value>
+              <Visualization>Device only</Visualization>
+            </Gain2>
+            <Gain3>
+              <Value>6.092309</Value>
+              <Visualization>Device only</Visualization>
+            </Gain3>
+            <Gain4>
+              <Value>-6.40000105</Value>
+              <Visualization>Device only</Visualization>
+            </Gain4>
+            <Frequency0>100</Frequency0>
+            <Frequency1>1000</Frequency1>
+            <Frequency2>2000</Frequency2>
+            <Frequency3>4000</Frequency3>
+            <Frequency4>8000</Frequency4>
+            <BandWidth0>1.0</BandWidth0>
+            <BandWidth1>2</BandWidth1>
+            <BandWidth2>2</BandWidth2>
+            <BandWidth3>2</BandWidth3>
+            <BandWidth4>1.0</BandWidth4>
+          </CabinetSimulatorDevice>
+          <Eq10Device type="Eq10Device">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>false</IsMaximized>
+            <InputMode>L+R</InputMode>
+            <MaxVisualizedGain>20</MaxVisualizedGain>
+            <Gain0>
+              <Value>-3.1147542</Value>
+              <Visualization>Device only</Visualization>
+            </Gain0>
+            <Gain1>
+              <Value>1.80327868</Value>
+              <Visualization>Device only</Visualization>
+            </Gain1>
+            <Gain2>
+              <Value>1.47540987</Value>
+              <Visualization>Device only</Visualization>
+            </Gain2>
+            <Gain3>
+              <Value>-3.4426229</Value>
+              <Visualization>Device only</Visualization>
+            </Gain3>
+            <Gain4>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Gain4>
+            <Gain5>
+              <Value>3.93442631</Value>
+              <Visualization>Device only</Visualization>
+            </Gain5>
+            <Gain6>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Gain6>
+            <Gain7>
+              <Value>3.93442631</Value>
+              <Visualization>Device only</Visualization>
+            </Gain7>
+            <Gain8>
+              <Value>2.45901632</Value>
+              <Visualization>Device only</Visualization>
+            </Gain8>
+            <Gain9>
+              <Value>-20</Value>
+              <Visualization>Device only</Visualization>
+            </Gain9>
+            <Frequency0>
+              <Value>50</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency0>
+            <Frequency1>
+              <Value>100</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency1>
+            <Frequency2>
+              <Value>300</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency2>
+            <Frequency3>
+              <Value>600</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency3>
+            <Frequency4>
+              <Value>1200</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency4>
+            <Frequency5>
+              <Value>2000</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency5>
+            <Frequency6>
+              <Value>3000.25</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency6>
+            <Frequency7>
+              <Value>5000</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency7>
+            <Frequency8>
+              <Value>10000</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency8>
+            <Frequency9>
+              <Value>15000</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency9>
+            <BandWidth0>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </BandWidth0>
+            <BandWidth1>
+              <Value>2</Value>
+              <Visualization>Device only</Visualization>
+            </BandWidth1>
+            <BandWidth2>
+              <Value>2</Value>
+              <Visualization>Device only</Visualization>
+            </BandWidth2>
+            <BandWidth3>
+              <Value>2</Value>
+              <Visualization>Device only</Visualization>
+            </BandWidth3>
+            <BandWidth4>
+              <Value>2</Value>
+              <Visualization>Device only</Visualization>
+            </BandWidth4>
+            <BandWidth5>
+              <Value>2</Value>
+              <Visualization>Device only</Visualization>
+            </BandWidth5>
+            <BandWidth6>
+              <Value>2</Value>
+              <Visualization>Device only</Visualization>
+            </BandWidth6>
+            <BandWidth7>
+              <Value>2</Value>
+              <Visualization>Device only</Visualization>
+            </BandWidth7>
+            <BandWidth8>
+              <Value>2</Value>
+              <Visualization>Device only</Visualization>
+            </BandWidth8>
+            <BandWidth9>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </BandWidth9>
+            <VisualizationMode>Graph Only</VisualizationMode>
+          </Eq10Device>
+          <SendDevice type="SendDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>false</IsMaximized>
+            <SendAmount>
+              <Value>0.799180329</Value>
+              <Visualization>Device only</Visualization>
+            </SendAmount>
+            <SendPan>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </SendPan>
+            <DestSendTrack>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </DestSendTrack>
+            <MuteSource>false</MuteSource>
+            <SmoothParameterChanges>false</SmoothParameterChanges>
+          </SendDevice>
+          <PhaserDevice type="PhaserDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Bass Walk</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>false</IsMaximized>
+            <Ceilling>
+              <Value>20</Value>
+              <Visualization>Device only</Visualization>
+            </Ceilling>
+            <Floor>
+              <Value>5015</Value>
+              <Visualization>Device only</Visualization>
+            </Floor>
+            <LFORate>
+              <Value>0.200000003</Value>
+              <Visualization>Device only</Visualization>
+            </LFORate>
+            <Depth>
+              <Value>3.14754105</Value>
+              <Visualization>Device only</Visualization>
+            </Depth>
+            <Feedback>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Feedback>
+            <Phase>
+              <Value>3.14159012</Value>
+              <Visualization>Device only</Visualization>
+            </Phase>
+            <Stages>
+              <Value>12</Value>
+              <Visualization>Device only</Visualization>
+            </Stages>
+          </PhaserDevice>
+          <MaximizerDevice type="MaximizerDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>false</IsMaximized>
+            <InputGain>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </InputGain>
+            <Threshold>
+              <Value>-6.8852458</Value>
+              <Visualization>Device only</Visualization>
+            </Threshold>
+            <TransientRelease>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </TransientRelease>
+            <LongTermRelease>
+              <Value>80</Value>
+              <Visualization>Device only</Visualization>
+            </LongTermRelease>
+            <Ceiling>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Ceiling>
+          </MaximizerDevice>
+        </Devices>
+      </FilterDevices>
+    </SequencerTrack>
+    <SequencerMasterTrack type="SequencerMasterTrack">
+      <Name>Mst</Name>
+      <Color>255,255,255</Color>
+      <ColorBlend>0.0</ColorBlend>
+      <State>Active</State>
+      <Soloed>false</Soloed>
+      <NoteColumnStates>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+      </NoteColumnStates>
+      <NumberOfVisibleNoteColumns>0</NumberOfVisibleNoteColumns>
+      <NumberOfVisibleEffectColumns>1</NumberOfVisibleEffectColumns>
+      <VolumeColumnIsVisible>false</VolumeColumnIsVisible>
+      <PanningColumnIsVisible>false</PanningColumnIsVisible>
+      <DelayColumnIsVisible>false</DelayColumnIsVisible>
+      <TrackRouting>0</TrackRouting>
+      <GroupNestingLevel>0</GroupNestingLevel>
+      <TrackDelay>0.0</TrackDelay>
+      <Collapsed>false</Collapsed>
+      <Visible>true</Visible>
+      <FilterDevices>
+        <Devices>
+          <SequencerMasterTrackDevice type="SequencerMasterTrackDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>true</IsMaximized>
+            <CustomDeviceName>Mixer &amp; Transport</CustomDeviceName>
+            <Panning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Volume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <Surround>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Surround>
+            <PostPanning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </PostPanning>
+            <PostVolume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </PostVolume>
+            <SmoothParameterChanges>true</SmoothParameterChanges>
+            <AutoDcCorrection>false</AutoDcCorrection>
+            <SoftClipping>false</SoftClipping>
+            <AutoGain>false</AutoGain>
+            <BpmAutomator>
+              <Value>128</Value>
+              <Visualization>Device only</Visualization>
+            </BpmAutomator>
+            <LpbAutomator>
+              <Value>4</Value>
+              <Visualization>Device only</Visualization>
+            </LpbAutomator>
+            <TplAutomator>
+              <Value>12</Value>
+              <Visualization>Device only</Visualization>
+            </TplAutomator>
+          </SequencerMasterTrackDevice>
+          <MaximizerDevice type="MaximizerDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>false</SelectedPresetIsModified>
+            <IsMaximized>false</IsMaximized>
+            <InputGain>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </InputGain>
+            <Threshold>
+              <Value>-0.0199999996</Value>
+              <Visualization>Device only</Visualization>
+            </Threshold>
+            <TransientRelease>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </TransientRelease>
+            <LongTermRelease>
+              <Value>80</Value>
+              <Visualization>Device only</Visualization>
+            </LongTermRelease>
+            <Ceiling>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Ceiling>
+          </MaximizerDevice>
+        </Devices>
+      </FilterDevices>
+    </SequencerMasterTrack>
+    <SequencerSendTrack type="SequencerSendTrack">
+      <Name>HP Flanger</Name>
+      <Color>169,178,80</Color>
+      <ColorBlend>0.0</ColorBlend>
+      <State>Active</State>
+      <Soloed>false</Soloed>
+      <NoteColumnStates>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+        <NoteColumnState>Active</NoteColumnState>
+      </NoteColumnStates>
+      <NumberOfVisibleNoteColumns>0</NumberOfVisibleNoteColumns>
+      <NumberOfVisibleEffectColumns>1</NumberOfVisibleEffectColumns>
+      <VolumeColumnIsVisible>false</VolumeColumnIsVisible>
+      <PanningColumnIsVisible>false</PanningColumnIsVisible>
+      <DelayColumnIsVisible>false</DelayColumnIsVisible>
+      <TrackRouting>0</TrackRouting>
+      <GroupNestingLevel>0</GroupNestingLevel>
+      <TrackDelay>0.0</TrackDelay>
+      <Collapsed>false</Collapsed>
+      <Visible>true</Visible>
+      <FilterDevices>
+        <Devices>
+          <SequencerSendTrackDevice type="SequencerSendTrackDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>false</SelectedPresetIsModified>
+            <IsMaximized>true</IsMaximized>
+            <CustomDeviceName>Mixer</CustomDeviceName>
+            <Panning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </Panning>
+            <Volume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Volume>
+            <Surround>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Surround>
+            <PostPanning>
+              <Value>0.5</Value>
+              <Visualization>Device only</Visualization>
+            </PostPanning>
+            <PostVolume>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </PostVolume>
+            <SmoothParameterChanges>true</SmoothParameterChanges>
+          </SequencerSendTrackDevice>
+          <Filter3Device type="Filter3Device">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>false</IsMaximized>
+            <Type>
+              <Value>5</Value>
+              <Visualization>Device only</Visualization>
+            </Type>
+            <Frequency>
+              <Value>0.237704918</Value>
+              <Visualization>Device only</Visualization>
+            </Frequency>
+            <Q>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Q>
+            <Gain>
+              <Value>-60</Value>
+              <Visualization>Device only</Visualization>
+            </Gain>
+            <Inertia>
+              <Value>0.0078125</Value>
+              <Visualization>Device only</Visualization>
+            </Inertia>
+            <Model>Butterworth 8n</Model>
+          </Filter3Device>
+          <FlangerDevice type="FlangerDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Drums Back</SelectedPresetName>
+            <SelectedPresetIsModified>false</SelectedPresetIsModified>
+            <IsMaximized>false</IsMaximized>
+            <Amount>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </Amount>
+            <Rate>
+              <Value>0.400862813</Value>
+              <Visualization>Device only</Visualization>
+            </Rate>
+            <Amplitude>
+              <Value>0.0375862047</Value>
+              <Visualization>Device only</Visualization>
+            </Amplitude>
+            <FeedBack>
+              <Value>-0.327586204</Value>
+              <Visualization>Device only</Visualization>
+            </FeedBack>
+            <Delay>
+              <Value>25</Value>
+              <Visualization>Device only</Visualization>
+            </Delay>
+            <Dephase>
+              <Value>3.14159274</Value>
+              <Visualization>Device only</Visualization>
+            </Dephase>
+            <FilterType>
+              <Value>3</Value>
+              <Visualization>Device only</Visualization>
+            </FilterType>
+            <FilterFreq>
+              <Value>53.6432838</Value>
+              <Visualization>Device only</Visualization>
+            </FilterFreq>
+            <FilterResonance>
+              <Value>24.9166508</Value>
+              <Visualization>Device only</Visualization>
+            </FilterResonance>
+          </FlangerDevice>
+          <StereoExpanderDevice type="StereoExpanderDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>false</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>false</IsMaximized>
+            <MonoMixMode>R</MonoMixMode>
+            <StereoWidth>
+              <Value>0.885245919</Value>
+              <Visualization>Device only</Visualization>
+            </StereoWidth>
+            <SurroundWidth>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </SurroundWidth>
+          </StereoExpanderDevice>
+          <MaximizerDevice type="MaximizerDevice">
+            <IsActive>true</IsActive>
+            <IsSelected>true</IsSelected>
+            <SelectedPresetName>Init</SelectedPresetName>
+            <SelectedPresetIsModified>true</SelectedPresetIsModified>
+            <IsMaximized>false</IsMaximized>
+            <InputGain>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </InputGain>
+            <Threshold>
+              <Value>-15</Value>
+              <Visualization>Device only</Visualization>
+            </Threshold>
+            <TransientRelease>
+              <Value>1.0</Value>
+              <Visualization>Device only</Visualization>
+            </TransientRelease>
+            <LongTermRelease>
+              <Value>80</Value>
+              <Visualization>Device only</Visualization>
+            </LongTermRelease>
+            <Ceiling>
+              <Value>0.0</Value>
+              <Visualization>Device only</Visualization>
+            </Ceiling>
+          </MaximizerDevice>
+        </Devices>
+      </FilterDevices>
+    </SequencerSendTrack>
+  </Tracks>
+  <SelectedTrackIndex>0</SelectedTrackIndex>
+  <SpectrumTrackDisplayA>-2</SpectrumTrackDisplayA>
+  <SpectrumTrackDisplayB>-1</SpectrumTrackDisplayB>
+  <PatternPool>
+    <HighliteStep>0</HighliteStep>
+    <DefaultPatternLength>64</DefaultPatternLength>
+    <Patterns>
+      <Pattern>
+        <Name>samples plain</Name>
+        <NumberOfLines>64</NumberOfLines>
+        <Tracks>
+          <PatternTrack type="PatternTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+            <Automations>
+              <Envelopes>
+                <Envelope>
+                  <DeviceIndex>3</DeviceIndex>
+                  <ParameterIndex>0</ParameterIndex>
+                  <Envelope>
+                    <PlayMode>Points</PlayMode>
+                    <Length>16384</Length>
+                    <ValueQuantum>0.0</ValueQuantum>
+                    <Polarity>Unipolar</Polarity>
+                    <Points>
+                      <Point>0,0.25</Point>
+                      <Point>9216,0.0</Point>
+                    </Points>
+                  </Envelope>
+                </Envelope>
+              </Envelopes>
+            </Automations>
+            <Lines>
+              <Line index="0">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>00</Value>
+                    <Number>00</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="16">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>70</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="18">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>50</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="20">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>40</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="22">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>70</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="24">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>B0</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>30</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="28">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>70</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="32">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>OFF</Note>
+                    <Instrument>..</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>00</Value>
+                    <Number>00</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+            </Lines>
+          </PatternTrack>
+          <PatternTrack type="PatternTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+            <Lines>
+              <Line index="0">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>---</Note>
+                    <Instrument>..</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>00</Value>
+                    <Number>28</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="32">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-5</Note>
+                    <Instrument>01</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>00</Value>
+                    <Number>00</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+            </Lines>
+          </PatternTrack>
+          <PatternMasterTrack type="PatternMasterTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+          </PatternMasterTrack>
+          <PatternSendTrack type="PatternSendTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+          </PatternSendTrack>
+        </Tracks>
+      </Pattern>
+      <Pattern>
+        <Name>bass modulated</Name>
+        <NumberOfLines>64</NumberOfLines>
+        <Tracks>
+          <PatternTrack type="PatternTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+            <Automations>
+              <Envelopes>
+                <Envelope>
+                  <DeviceIndex>3</DeviceIndex>
+                  <ParameterIndex>0</ParameterIndex>
+                  <Envelope>
+                    <PlayMode>Points</PlayMode>
+                    <Length>16384</Length>
+                    <ValueQuantum>0.0</ValueQuantum>
+                    <Polarity>Unipolar</Polarity>
+                    <Points>
+                      <Point>0,0.0</Point>
+                    </Points>
+                  </Envelope>
+                </Envelope>
+              </Envelopes>
+            </Automations>
+            <Lines>
+              <Line index="0">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>00</Value>
+                    <Number>00</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="32">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>00</Value>
+                    <Number>00</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="48">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>70</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="50">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>50</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="52">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>40</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="54">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>70</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="56">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>B0</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>30</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="60">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>70</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+            </Lines>
+          </PatternTrack>
+          <PatternTrack type="PatternTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+            <Lines>
+              <Line index="0">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-5</Note>
+                    <Instrument>01</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>FF</Value>
+                    <Number>0G</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="24">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>F#5</Note>
+                    <Instrument>01</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>FF</Value>
+                    <Number>0G</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="32">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-5</Note>
+                    <Instrument>01</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>FF</Value>
+                    <Number>0G</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="48">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>F#5</Note>
+                    <Instrument>01</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>FF</Value>
+                    <Number>0G</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="56">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C#5</Note>
+                    <Instrument>01</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>FF</Value>
+                    <Number>0G</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+            </Lines>
+          </PatternTrack>
+          <PatternMasterTrack type="PatternMasterTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+          </PatternMasterTrack>
+          <PatternSendTrack type="PatternSendTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+          </PatternSendTrack>
+        </Tracks>
+      </Pattern>
+      <Pattern>
+        <Name>drums and bass</Name>
+        <NumberOfLines>64</NumberOfLines>
+        <Tracks>
+          <PatternTrack type="PatternTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+            <Automations>
+              <Envelopes>
+                <Envelope>
+                  <DeviceIndex>3</DeviceIndex>
+                  <ParameterIndex>0</ParameterIndex>
+                  <Envelope>
+                    <PlayMode>Points</PlayMode>
+                    <Length>16384</Length>
+                    <ValueQuantum>0.0</ValueQuantum>
+                    <Polarity>Unipolar</Polarity>
+                    <Points>
+                      <Point>0,0.25</Point>
+                    </Points>
+                  </Envelope>
+                </Envelope>
+              </Envelopes>
+            </Automations>
+            <Lines>
+              <Line index="0">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>00</Value>
+                    <Number>00</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="32">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>00</Value>
+                    <Number>00</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="48">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>70</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="50">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>50</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="52">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>40</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="54">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>70</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="56">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>B0</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>30</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="60">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-4</Note>
+                    <Instrument>00</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>70</Value>
+                    <Number>0S</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+            </Lines>
+          </PatternTrack>
+          <PatternTrack type="PatternTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+            <Lines>
+              <Line index="0">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-5</Note>
+                    <Instrument>01</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>FF</Value>
+                    <Number>0G</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="24">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>F#5</Note>
+                    <Instrument>01</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>FF</Value>
+                    <Number>0G</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="32">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C-5</Note>
+                    <Instrument>01</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>FF</Value>
+                    <Number>0G</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="48">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>F#5</Note>
+                    <Instrument>01</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>FF</Value>
+                    <Number>0G</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+              <Line index="56">
+                <NoteColumns>
+                  <NoteColumn>
+                    <Note>C#5</Note>
+                    <Instrument>01</Instrument>
+                    <Volume>..</Volume>
+                    <Panning>..</Panning>
+                    <Delay>..</Delay>
+                  </NoteColumn>
+                </NoteColumns>
+                <EffectColumns>
+                  <EffectColumn>
+                    <Value>FF</Value>
+                    <Number>0G</Number>
+                  </EffectColumn>
+                </EffectColumns>
+              </Line>
+            </Lines>
+          </PatternTrack>
+          <PatternMasterTrack type="PatternMasterTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+          </PatternMasterTrack>
+          <PatternSendTrack type="PatternSendTrack">
+            <AliasPatternIndex>-1</AliasPatternIndex>
+            <ColorEnabled>false</ColorEnabled>
+            <Color>0,0,0</Color>
+          </PatternSendTrack>
+        </Tracks>
+      </Pattern>
+    </Patterns>
+  </PatternPool>
+  <PatternSequence>
+    <SequenceEntries>
+      <SequenceEntry>
+        <IsSectionStart>false</IsSectionStart>
+        <SectionName>Untitled Section</SectionName>
+        <Pattern>0</Pattern>
+      </SequenceEntry>
+      <SequenceEntry>
+        <IsSectionStart>false</IsSectionStart>
+        <SectionName>Untitled Section</SectionName>
+        <Pattern>1</Pattern>
+      </SequenceEntry>
+      <SequenceEntry>
+        <IsSectionStart>false</IsSectionStart>
+        <SectionName>Untitled Section</SectionName>
+        <Pattern>2</Pattern>
+      </SequenceEntry>
+    </SequenceEntries>
+    <LoopSelection>
+      <CursorPos>2</CursorPos>
+      <RangePos>2</RangePos>
+    </LoopSelection>
+    <PatternNameWidth>144</PatternNameWidth>
+    <PatternMatrixWidth>104</PatternMatrixWidth>
+    <PatternSlotHeight>30</PatternSlotHeight>
+    <PatternSlotWidth>24</PatternSlotWidth>
+    <HighliteStep>2</HighliteStep>
+    <HighliteOffset>0</HighliteOffset>
+    <KeepSequenceSorted>true</KeepSequenceSorted>
+  </PatternSequence>
+  <LastSoloedOutMode>Active</LastSoloedOutMode>
+</RenoiseSong>
